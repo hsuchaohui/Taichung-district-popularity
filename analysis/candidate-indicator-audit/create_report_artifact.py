@@ -1,0 +1,276 @@
+from __future__ import annotations
+
+import csv
+import json
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parent
+OUTPUTS = ROOT / "outputs"
+REPORT = ROOT / "report"
+
+
+def read_csv(name: str):
+    with (OUTPUTS / name).open(encoding="utf-8-sig", newline="") as handle:
+        return list(csv.DictReader(handle))
+
+
+def source(source_id: str, label: str, href: str, path: str, description: str):
+    reader = "read_json_auto" if path.endswith(".json") else "read_csv_auto"
+    return {
+        "id": source_id,
+        "label": label,
+        "href": href,
+        "path": path,
+        "query": {
+            "engine": "Python/pandas",
+            "description": description,
+            "executed_at": "2026-08-20T00:00:00+08:00",
+            "language": "python",
+            "sql": f"SELECT * FROM {reader}('{path}');",
+            "tables_used": [path],
+        },
+    }
+
+
+def main():
+    completeness = read_csv("business_completeness.csv")
+    for row in completeness:
+        row["complete_rate"] = float(row["complete_rate"])
+        row["non_empty_rows"] = int(row["non_empty_rows"])
+        row["total_rows"] = int(row["total_rows"])
+        row["missing_rows"] = int(row["missing_rows"])
+
+    readiness = read_csv("candidate_readiness.csv")
+    checks = read_csv("automated_quality_checks.csv")
+    profile = json.loads((OUTPUTS / "audit_profile.json").read_text(encoding="utf-8"))
+
+    source_business = source(
+        "business-audit",
+        "臺中市現有商業登記資料品質稽核",
+        "https://data.gov.tw/dataset/52935",
+        "outputs/business_completeness.csv",
+        "下載官方現況快照，檢查主鍵、地址、欄位完整率與數值合理性。",
+    )
+    source_transit = source(
+        "transit-audit",
+        "臺中市公車路線與站牌資料品質稽核",
+        "https://data.gov.tw/dataset/81555",
+        "outputs/audit_profile.json",
+        "下載官方路線與站牌 CSV，分別以嚴格與寬鬆 CSV 解析器檢查列數、欄數、站點與座標。",
+    )
+    source_resilience = source(
+        "resilience-audit",
+        "臺中市商業異動資料品質稽核",
+        "https://data.gov.tw/dataset/127264",
+        "outputs/audit_profile.json",
+        "從官方資料頁擷取全部 JSON 資源，檢查月份連續性、行政區粒度與指標重複。",
+    )
+    source_schedule = source(
+        "transit-schedule-audit",
+        "臺中市市區公車預估到站時刻表（300 路範例）",
+        "https://data.gov.tw/dataset/83747",
+        "outputs/audit_profile.json",
+        "下載官方 300 路核定班表示例，檢查路線、站序與班表時刻欄位涵蓋。",
+    )
+    source_decision = source(
+        "decision-audit",
+        "候選指標資料就緒度判定",
+        "https://data.gov.tw/dataset/52935",
+        "outputs/candidate_readiness.csv",
+        "依來源可取得性、分析粒度、空間可連結性與時間完整性判定候選指標是否可納入模型。",
+    )
+    sources = [source_business, source_transit, source_schedule, source_resilience, source_decision]
+
+    artifact = {
+        "surface": "report",
+        "manifest": {
+            "version": 1,
+            "surface": "report",
+            "title": "臺中商圈候選指標資料可行性與品質稽核",
+            "description": "商業多樣性、公共運輸可達性與商業韌性的可重現資料稽核（2026-08-20）。",
+            "generatedAt": "2026-08-20T00:00:00+08:00",
+            "sources": sources,
+            "charts": [
+                {
+                    "id": "business-completeness",
+                    "title": "商業登記核心欄位完整率",
+                    "subtitle": "除核准設立日期外，其餘稽核欄位在 64,961 筆快照中皆完整。",
+                    "type": "horizontalBar",
+                    "intent": "comparison",
+                    "question": "商業登記核心欄位是否足以支援商圈橫斷面分析？",
+                    "rationale": "水平長條圖適合比較多個長中文欄位名稱的完整率。",
+                    "dataset": "business_completeness",
+                    "sourceId": "business-audit",
+                    "encodings": {
+                        "x": {"field": "field", "type": "nominal", "label": "欄位"},
+                        "y": {"field": "complete_rate", "type": "quantitative", "format": "percent", "label": "完整率"},
+                        "tooltip": [
+                            {"field": "complete_rate", "type": "quantitative", "format": "percent", "label": "完整率"},
+                            {"field": "missing_rows", "type": "quantitative", "format": "number", "label": "缺漏筆數"},
+                        ],
+                    },
+                    "layout": "full",
+                    "maxRows": 10,
+                    "palette": {"kind": "sequential", "name": "blue"},
+                    "labels": {"values": "all"},
+                    "settings": {"orientation": "horizontal", "sort": "ascending"},
+                    "surface": {"surface": "card", "viewMode": "visualization"},
+                }
+            ],
+            "tables": [
+                {
+                    "id": "candidate-readiness",
+                    "title": "三項候選指標資料就緒度",
+                    "subtitle": "判定基準涵蓋來源、粒度、空間與時間可用性。",
+                    "dataset": "candidate_readiness",
+                    "sourceId": "decision-audit",
+                    "layout": "full",
+                    "density": "spacious",
+                    "columns": [
+                        {"field": "candidate", "label": "候選指標", "type": "text"},
+                        {"field": "raw_data_status", "label": "原始資料", "type": "text"},
+                        {"field": "grain_match", "label": "粒度", "type": "text"},
+                        {"field": "decision", "label": "模型決策", "type": "text"},
+                        {"field": "severity", "label": "風險", "type": "text"},
+                    ],
+                },
+                {
+                    "id": "quality-checks",
+                    "title": "自動化資料品質檢查",
+                    "subtitle": "每項檢查均保留門檻與本次觀測值。",
+                    "dataset": "quality_checks",
+                    "sourceId": "decision-audit",
+                    "layout": "full",
+                    "density": "dense",
+                    "columns": [
+                        {"field": "dataset", "label": "資料集", "type": "text"},
+                        {"field": "test", "label": "檢查", "type": "text"},
+                        {"field": "threshold", "label": "門檻", "type": "text"},
+                        {"field": "current", "label": "本次結果", "type": "text"},
+                    ],
+                },
+            ],
+            "blocks": [
+                {
+                    "id": "title",
+                    "type": "markdown",
+                    "body": "# 臺中商圈候選指標資料可行性與品質稽核\n\n資料截點：2026-08-20｜用途：大專專題模型凍結與後續期刊研究設計。",
+                },
+                {
+                    "id": "technical-summary",
+                    "type": "markdown",
+                    "sourceId": "decision-audit",
+                    "body": "## 技術摘要\n\n三項候選中，**商業多樣性可進入第一版橫斷面『商業活力儀表板』**，但仍須完成地址座標化、WKT 空間歸屬與行業分類層級敏感度分析。公共運輸可達性與商業韌性目前均屬資料阻斷，不應納入 TCDPI 或正式排名。",
+                },
+                {
+                    "id": "readiness-table-block",
+                    "type": "table",
+                    "tableId": "candidate-readiness",
+                    "layout": "full",
+                },
+                {
+                    "id": "business-finding",
+                    "type": "markdown",
+                    "sourceId": "business-audit",
+                    "body": "## 主要發現 1：商業登記足以支援橫斷面結構分析\n\n官方快照共有 64,961 筆；統一編號沒有重複，商業地址與行業代碼完整率均為 100%。核准設立日期缺 1,025 筆（1.58%），所以店齡分析須標記缺值，商業多樣性與店家密度則可先行。",
+                },
+                {
+                    "id": "business-chart-block",
+                    "type": "chart",
+                    "chartId": "business-completeness",
+                    "layout": "full",
+                },
+                {
+                    "id": "transit-finding",
+                    "type": "markdown",
+                    "sourceId": "transit-audit",
+                    "body": "## 主要發現 2：班次可納入，但正式 API 仍待介接驗證\n\n路線檔可辨識 392 條路線，但嚴格 CSV 解析在最後一列遇到未閉合引號；站牌檔只有 26 列、1 個站點編號及 1 個站名。政府另提供 300 路核定班表示例，包含 50 個站序與 88 個班表時刻欄位。臺中市公車動態系統自 2026-07-09 起改用 `https://citybus.taichung.gov.tw/xmlbus4/`，證明正式 API 仍存在；先前不完整判定只適用於免申請範例檔，正式 API 涵蓋率須取得端點規格／權限後另行驗證。",
+                },
+                {
+                    "id": "resilience-finding",
+                    "type": "markdown",
+                    "sourceId": "resilience-audit",
+                    "body": "## 主要發現 3：商業異動只能當城市背景\n\n可取得 2024-07 至 2026-06 間 18 個月份，但期間內缺 6 個月，而且行政區欄位只有『臺中市』。它不能識別個別店家或商圈，故無法估計商圈淨進入率或一年存續率。",
+                },
+                {
+                    "id": "methodology",
+                    "type": "markdown",
+                    "sourceId": "decision-audit",
+                    "body": "## 範圍、資料與方法\n\n分析單位要求為『商圈－月份』或可由店家地址空間連結至商圈的現況快照。流程依序為：保存原始檔與 SHA-256、檢查編碼與解析、核對主鍵與重複、計算缺漏率、檢查空間粒度與月份連續性，最後依來源、粒度、空間、時間四項門檻判定就緒度。此稽核不把相關性解讀為因果。",
+                },
+                {
+                    "id": "quality-table-block",
+                    "type": "table",
+                    "tableId": "quality-checks",
+                    "layout": "full",
+                },
+                {
+                    "id": "limitations",
+                    "type": "markdown",
+                    "sourceId": "decision-audit",
+                    "body": "## 限制、不確定性與穩健性\n\n商業登記是現存商家的單期快照，無法避免以現在存活者回推歷史的存活者偏誤；地址座標化與商圈邊界也會產生空間誤差。公車與商業異動的阻斷是本次官方下載內容的資料品質結論，不代表政府內部或其他授權來源一定沒有更完整資料。正式計分前仍須執行行業分類層級與 300／500／800 公尺尺度敏感度分析。",
+                },
+                {
+                    "id": "recommendations",
+                    "type": "markdown",
+                    "sourceId": "decision-audit",
+                    "body": "## 建議的下一步\n\n1. 先將 64,961 筆商業地址座標化並空間連結至凍結商圈 WKT。\n2. 以標準行業分類兩個層級計算正規化 Shannon entropy 與店家密度，但獨立呈現，不改寫 TCDPI 第 1 版。\n3. 公共運輸改查 TDX 或申請交通局介接；取得完整站點、路線、平／假日班次與平均班距後才解除阻斷。\n4. 商業韌性維持研究候選，等待可識別店家事件且月份連續的設立／歇業資料。",
+                },
+                {
+                    "id": "further-questions",
+                    "type": "markdown",
+                    "body": "## 後續研究問題\n\n- 商業多樣性對人流、停留與重遊的解釋力是否在不同商圈類型間一致？\n- 行業分類粒度與商圈邊界尺度會使排名改變多少？\n- 交通供給應作結構驅動因子、外部驗證，或只作情境解釋？",
+                },
+            ],
+        },
+        "snapshot": {
+            "version": 1,
+            "generatedAt": "2026-08-20T00:00:00+08:00",
+            "status": "partial",
+            "datasets": {
+                "business_completeness": completeness,
+                "candidate_readiness": readiness,
+                "quality_checks": checks,
+                "headline_profile": [
+                    {
+                        "business_rows": profile["business_profile"]["rows"],
+                        "route_rows": profile["bus_profile"]["route_rows"],
+                        "stop_rows": profile["bus_profile"]["stop_route_rows"],
+                        "distinct_stop_ids": profile["bus_profile"]["distinct_stop_ids"],
+                        "resilience_months": profile["business_changes_profile"]["distinct_months"],
+                    }
+                ],
+            },
+            "accessIssues": [
+                {
+                    "id": "transit-incomplete",
+                    "scope": "公共運輸可達性",
+                    "sourceId": "transit-audit",
+                    "dataset": "candidate_readiness",
+                    "message": "班次資料存在，但公開下載僅有單一路線範例且站牌檔疑似不完整，暫停公共運輸指標正式計分。",
+                    "actionLabel": "查看官方資料集",
+                    "actionHref": "https://data.gov.tw/dataset/81555",
+                },
+                {
+                    "id": "resilience-grain",
+                    "scope": "商業韌性",
+                    "sourceId": "resilience-audit",
+                    "dataset": "candidate_readiness",
+                    "message": "商業異動只有臺中市總體且月份不連續，暫停商圈韌性計分。",
+                    "actionLabel": "查看官方資料集",
+                    "actionHref": "https://data.gov.tw/dataset/127264",
+                },
+            ],
+        },
+        "sources": sources,
+    }
+
+    REPORT.mkdir(parents=True, exist_ok=True)
+    path = REPORT / "artifact.json"
+    path.write_text(json.dumps(artifact, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(path)
+
+
+if __name__ == "__main__":
+    main()

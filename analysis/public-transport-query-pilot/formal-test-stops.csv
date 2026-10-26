@@ -1,0 +1,8 @@
+endpoint_id,role,district,search_term,selected_stop_name,selected_stop_address
+O1,origin,,臺中車站,臺中車站(A月台),干城里12鄰新民街88號
+O2,origin,,高鐵臺中站,高鐵臺中站,三和里3鄰站區二路8號
+O3,origin,,市政府,捷運市政府站(臺灣大道),何安里19鄰臺灣大道二段940號
+D1,destination,逢甲,逢甲大學,逢甲大學(福星路),西平里2鄰福星路411號
+D2,destination,一中,國立臺中科技大學,國立臺中科技大學,新興里1鄰三民路三段104之11號
+D3,destination,草悟道,公益中美街口,公益中美街口,公益里12鄰公益路215號
+D4,destination,公益路,公益東興路口,公益東興路口,大業里16鄰公益路二段8之1號

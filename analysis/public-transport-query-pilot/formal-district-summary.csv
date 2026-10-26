@@ -1,0 +1,5 @@
+destination_id,district,query_count,median_min_duration,q1_min_duration,q3_min_duration,median_valid_plan_count,direct_query_share
+D1,逢甲,18,29,17,32,13.5,1
+D2,一中,18,27,11,29,19,1
+D3,草悟道,18,18,12,31,25.5,1
+D4,公益路,18,22,9,26,14,1

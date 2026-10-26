@@ -1,0 +1,245 @@
+{
+  "dataset_version": "1.1.0",
+  "dataset_created_at": "2026-10-22T04:33:12.324Z",
+  "source_snapshot": "2026-10-22",
+  "availability_checks": [
+    {
+      "raw_file": "availability/2026-09/11/population.json",
+      "classification": "success_but_empty",
+      "value": 0,
+      "message": ""
+    },
+    {
+      "raw_file": "availability/2026-09/11/stay-time.json",
+      "classification": "endpoint_failed",
+      "value": null,
+      "message": "Official response unsuccessful: The cast to value type 'System.Double' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type."
+    },
+    {
+      "raw_file": "availability/2026-09/11/revisit.json",
+      "classification": "endpoint_failed",
+      "value": null,
+      "message": "Official response unsuccessful: The cast to value type 'System.Double' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type."
+    },
+    {
+      "raw_file": "availability/2026-09/13/population.json",
+      "classification": "success_but_empty",
+      "value": 0,
+      "message": ""
+    },
+    {
+      "raw_file": "availability/2026-09/13/stay-time.json",
+      "classification": "endpoint_failed",
+      "value": null,
+      "message": "Official response unsuccessful: The cast to value type 'System.Double' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type."
+    },
+    {
+      "raw_file": "availability/2026-09/13/revisit.json",
+      "classification": "endpoint_failed",
+      "value": null,
+      "message": "Official response unsuccessful: The cast to value type 'System.Double' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type."
+    },
+    {
+      "raw_file": "availability/2026-09/21/population.json",
+      "classification": "success_but_empty",
+      "value": 0,
+      "message": ""
+    },
+    {
+      "raw_file": "availability/2026-09/21/stay-time.json",
+      "classification": "endpoint_failed",
+      "value": null,
+      "message": "Official response unsuccessful: The cast to value type 'System.Double' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type."
+    },
+    {
+      "raw_file": "availability/2026-09/21/revisit.json",
+      "classification": "endpoint_failed",
+      "value": null,
+      "message": "Official response unsuccessful: The cast to value type 'System.Double' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type."
+    },
+    {
+      "raw_file": "availability/2026-09/8043/population.json",
+      "classification": "success_but_empty",
+      "value": 0,
+      "message": ""
+    },
+    {
+      "raw_file": "availability/2026-09/8043/stay-time.json",
+      "classification": "endpoint_failed",
+      "value": null,
+      "message": "Official response unsuccessful: The cast to value type 'System.Double' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type."
+    },
+    {
+      "raw_file": "availability/2026-09/8043/revisit.json",
+      "classification": "endpoint_failed",
+      "value": null,
+      "message": "Official response unsuccessful: The cast to value type 'System.Double' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type."
+    },
+    {
+      "raw_file": "availability/2026-10/11/population.json",
+      "classification": "success_but_empty",
+      "value": 0,
+      "message": ""
+    },
+    {
+      "raw_file": "availability/2026-10/11/stay-time.json",
+      "classification": "endpoint_failed",
+      "value": null,
+      "message": "Official response unsuccessful: The cast to value type 'System.Double' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type."
+    },
+    {
+      "raw_file": "availability/2026-10/11/revisit.json",
+      "classification": "endpoint_failed",
+      "value": null,
+      "message": "Official response unsuccessful: The cast to value type 'System.Double' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type."
+    },
+    {
+      "raw_file": "availability/2026-10/13/population.json",
+      "classification": "success_but_empty",
+      "value": 0,
+      "message": ""
+    },
+    {
+      "raw_file": "availability/2026-10/13/stay-time.json",
+      "classification": "endpoint_failed",
+      "value": null,
+      "message": "Official response unsuccessful: The cast to value type 'System.Double' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type."
+    },
+    {
+      "raw_file": "availability/2026-10/13/revisit.json",
+      "classification": "endpoint_failed",
+      "value": null,
+      "message": "Official response unsuccessful: The cast to value type 'System.Double' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type."
+    },
+    {
+      "raw_file": "availability/2026-10/21/population.json",
+      "classification": "success_but_empty",
+      "value": 0,
+      "message": ""
+    },
+    {
+      "raw_file": "availability/2026-10/21/stay-time.json",
+      "classification": "endpoint_failed",
+      "value": null,
+      "message": "Official response unsuccessful: The cast to value type 'System.Double' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type."
+    },
+    {
+      "raw_file": "availability/2026-10/21/revisit.json",
+      "classification": "endpoint_failed",
+      "value": null,
+      "message": "Official response unsuccessful: The cast to value type 'System.Double' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type."
+    },
+    {
+      "raw_file": "availability/2026-10/8043/population.json",
+      "classification": "success_but_empty",
+      "value": 0,
+      "message": ""
+    },
+    {
+      "raw_file": "availability/2026-10/8043/stay-time.json",
+      "classification": "endpoint_failed",
+      "value": null,
+      "message": "Official response unsuccessful: The cast to value type 'System.Double' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type."
+    },
+    {
+      "raw_file": "availability/2026-10/8043/revisit.json",
+      "classification": "endpoint_failed",
+      "value": null,
+      "message": "Official response unsuccessful: The cast to value type 'System.Double' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type."
+    }
+  ],
+  "excluded_periods": [
+    "2026-09",
+    "2026-10"
+  ],
+  "source_system": "臺中市主要遊憩據點遊客行為資訊網",
+  "source_api_contract": "anonymous internal website endpoints; not formally versioned",
+  "source_date_scope": {
+    "dateMax": "2026-08-01T00:00:00",
+    "dateMin": "2020-01-01T00:00:00"
+  },
+  "study_period": {
+    "start": "2025-01",
+    "end": "2026-08",
+    "months": 20
+  },
+  "spot_codes": [
+    11,
+    13,
+    21,
+    8043
+  ],
+  "grain": "functional-commercial-area-month",
+  "crs": {
+    "value": "EPSG:4326",
+    "status": "observed-in-frontend-pending-agency-confirmation"
+  },
+  "boundary_hashes": {
+    "11": "4050d1036a14a2f881ca5d04242e5bf4849c67ea27e4572d75864a93922e64e1",
+    "13": "27350ddd12667a16f2ab02140a6f1a4b87c75aa4c5854e5ff649726ac109e9e2",
+    "21": "f7323d41a81926f22cd285cf24fe99da6afb3e149ac6e071ce10b821df9eac5a",
+    "8043": "4e3e0af177559d1b3c6c1769c4cb3ad3198026ec2f99b9aec5ced27315777dfb"
+  },
+  "endpoints": {
+    "population": "https://tourstats.taichung.gov.tw/Api/Report/GetPopulation",
+    "stay-time": "https://tourstats.taichung.gov.tw/Api/Report/GetStayTime",
+    "revisit": "https://tourstats.taichung.gov.tw/Api/Report/GetRevisit"
+  },
+  "processing": {
+    "visitors_transform": "log1p",
+    "winsorization": "linear-interpolated p01/p99 over all 80 baseline rows, separately per metric",
+    "scaling": "fixed-baseline min-max to 0-100; clipped to 0-100; constant range maps to 50",
+    "baseline": "all 80 spot-month rows from 2025-01 through 2026-08",
+    "weights": {
+      "attraction": 0.4,
+      "engagement": 0.3,
+      "loyalty": 0.3
+    },
+    "rank": "descending TCDPI score; spot_code ascending deterministic tie-break"
+  },
+  "baseline_parameters": {
+    "attraction": {
+      "p01": 13.055897827471858,
+      "p99": 14.314153612295316,
+      "minimum": 13.055897827471858,
+      "maximum": 14.314153612295316
+    },
+    "engagement": {
+      "p01": 127,
+      "p99": 307.04999999999995,
+      "minimum": 127,
+      "maximum": 307.04999999999995
+    },
+    "loyalty": {
+      "p01": 64.12859999999999,
+      "p99": 84.4713,
+      "minimum": 64.12859999999999,
+      "maximum": 84.4713
+    }
+  },
+  "sensitivity_analysis": {
+    "equal_weights": {
+      "attraction": 0.3333333333333333,
+      "engagement": 0.3333333333333333,
+      "loyalty": 0.3333333333333333
+    },
+    "entropy_weights": {
+      "attraction": 0.33003901046950435,
+      "engagement": 0.5026855897247847,
+      "loyalty": 0.1672753998057109
+    },
+    "perturbation_rule": "Each base weight is varied by ±0.10; the other two weights are proportionally rescaled to keep the sum at 1.",
+    "agreement_metrics": [
+      "Spearman rank correlation",
+      "Kendall rank correlation"
+    ]
+  },
+  "known_method_questions_for_agency": [
+    "Visitor sample expansion and inclusion/exclusion rules",
+    "Minimum/maximum dwell thresholds and session stitching",
+    "Exact revisit denominator and meaning of same period",
+    "Suppression, rounding, revision and backfill rules",
+    "WKT purpose, CRS and effective dates",
+    "Vendor or estimation-method changes during the study period"
+  ]
+}

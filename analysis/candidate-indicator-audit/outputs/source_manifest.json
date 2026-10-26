@@ -1,0 +1,452 @@
+[
+  {
+    "source_id": "business_snapshot",
+    "dataset_page": "https://data.gov.tw/dataset/52935",
+    "download_url": "https://data.gcis.nat.gov.tw/od/file?oid=C0DC4B38-796A-4405-B72F-62EADAB1082A",
+    "local_file": "raw/2026-08-20/taichung-business-f.csv",
+    "bytes": 12884124,
+    "sha256": "68033ecafe7471a0720b949f87b0b4563d5cc4872fdfd76d252140362b9e640c",
+    "license": "政府資料開放授權條款第1版"
+  },
+  {
+    "source_id": "bus_routes",
+    "dataset_page": "https://data.gov.tw/dataset/83748",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=20c2e4cc-49bf-45d5-a880-714c7c66eed6",
+    "local_file": "raw/2026-08-20/taichung-bus-routes.csv",
+    "bytes": 774834,
+    "sha256": "55733572f4d478f74159f9f6750cb4029dadbc19f8c2448dbcd7d554f53b3685",
+    "license": "政府資料開放授權條款第1版"
+  },
+  {
+    "source_id": "bus_stops",
+    "dataset_page": "https://data.gov.tw/dataset/81555",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=d905afab-f80d-4044-a2f4-5e0753a1c60e",
+    "local_file": "raw/2026-08-20/taichung-bus-stops.csv",
+    "bytes": 3710,
+    "sha256": "4bec11b891807656fe883b7fd7c7c58972c8469b9a81a137ad23af2ed9b93ab8",
+    "license": "政府資料開放授權條款第1版"
+  },
+  {
+    "source_id": "bus_schedule_sample",
+    "dataset_page": "https://data.gov.tw/dataset/83747",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=ae0debce-1444-4d21-b5ea-958dcc9ef2be",
+    "local_file": "raw/2026-08-20/taichung-bus-route-300-schedule-sample.csv",
+    "bytes": 52146,
+    "sha256": "d7260b34cc5fcc50625051dfe2eb795178f789cd16b363e1afd11df999c921ff",
+    "license": "政府資料開放授權條款第1版"
+  },
+  {
+    "source_id": "business_changes_page",
+    "dataset_page": "https://data.gov.tw/dataset/127264",
+    "download_url": "https://data.gov.tw/dataset/127264",
+    "local_file": "raw/2026-08-20/business-changes-page.html",
+    "bytes": 594106,
+    "sha256": "0ed44b7f55f2e3ff42972d05749f01793998c485defe4a2c6a385c58338dec54",
+    "license": "政府資料開放授權條款第1版"
+  },
+  {
+    "source_id": "business_stock_changes_page",
+    "dataset_page": "https://data.gov.tw/dataset/114027",
+    "download_url": "https://data.gov.tw/dataset/114027",
+    "local_file": "raw/2026-08-20/business-stock-changes-page.html",
+    "bytes": 594963,
+    "sha256": "1b6b7e812e8e2f2ff917fafeafc01a83bcd980a030d4c370998c30e62bc09e53",
+    "license": "政府資料開放授權條款第1版"
+  },
+  {
+    "source_id": "business_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=25fd5720-4d81-4f1b-99dc-2276e3573d35",
+    "local_file": "raw/2026-08-20/business-changes-2026-06-01.json",
+    "bytes": 149270,
+    "sha256": "4c67e41ef1f0a43f18be6e68ca6a6efdc98442cb6befbc44df3f86320d982850",
+    "observed_dates": [
+      "2026-06-01"
+    ],
+    "rows": 360
+  },
+  {
+    "source_id": "business_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=284b0a62-ffa0-4e38-93f0-513c2785a57c",
+    "local_file": "raw/2026-08-20/business-changes-2026-05-01.json",
+    "bytes": 149261,
+    "sha256": "ccd60268370d29a3f614b51d77f1d33f5234431d45ae9b3ef0f6c8ed186f2def",
+    "observed_dates": [
+      "2026-05-01"
+    ],
+    "rows": 360
+  },
+  {
+    "source_id": "business_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=f70ce208-62b3-4cb6-b4bb-0d8f29d53d19",
+    "local_file": "raw/2026-08-20/business-changes-2026-04-01.json",
+    "bytes": 75222,
+    "sha256": "ef4f84b9041f6bf522d23640f54dc508f2653a738ee1394492667ac970bd427d",
+    "observed_dates": [
+      "2026-04-01"
+    ],
+    "rows": 180
+  },
+  {
+    "source_id": "business_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=5f21268a-b6b4-4183-aacd-30a7481fea2e",
+    "local_file": "raw/2026-08-20/business-changes-2026-03-01.json",
+    "bytes": 149274,
+    "sha256": "4d547129235d7c4bd34952c701bf94d2d73542107da3e45db01b1380cb415a32",
+    "observed_dates": [
+      "2026-03-01"
+    ],
+    "rows": 360
+  },
+  {
+    "source_id": "business_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=cb67efd5-7da5-4668-9a08-2264062f02bb",
+    "local_file": "raw/2026-08-20/business-changes-2026-02-01.json",
+    "bytes": 149237,
+    "sha256": "21ff5b99b2e94ea84423bba485d7b2f66e2434a5a2c6000ea36980c55542c11b",
+    "observed_dates": [
+      "2026-02-01"
+    ],
+    "rows": 360
+  },
+  {
+    "source_id": "business_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=1e05792e-db5d-4f79-b107-9657281f77b7",
+    "local_file": "raw/2026-08-20/business-changes-2025-12-01.json",
+    "bytes": 71484,
+    "sha256": "cfc2bfb2b0addc6ae68b9bf93bb5fb32d3b7861a90c08042d137b0ee6aec3960",
+    "observed_dates": [
+      "2025-12-01"
+    ],
+    "rows": 171
+  },
+  {
+    "source_id": "business_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=13732ac6-453b-4d94-a4ce-259f4bef2268",
+    "local_file": "raw/2026-08-20/business-changes-2025-11-01.json",
+    "bytes": 71401,
+    "sha256": "6bfb5a86ca919575f29a4389557cc9f498c1a597000517481d372ac77af50e4f",
+    "observed_dates": [
+      "2025-11-01"
+    ],
+    "rows": 171
+  },
+  {
+    "source_id": "business_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=1db1040d-c464-44da-a955-74c8f73f62a5",
+    "local_file": "raw/2026-08-20/business-changes-2025-08-01.json",
+    "bytes": 71419,
+    "sha256": "313684141132c203cc2620ee46b4e8a58e00b6ebfce577ff047a2826a4072a61",
+    "observed_dates": [
+      "2025-08-01"
+    ],
+    "rows": 171
+  },
+  {
+    "source_id": "business_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=e5fd45a3-4176-4e91-8f20-af27611244fe",
+    "local_file": "raw/2026-08-20/business-changes-2025-07-01.json",
+    "bytes": 71434,
+    "sha256": "397355684d68da59b25e8c0e5c5c037c60a76621af48de9d928af39c65eecf23",
+    "observed_dates": [
+      "2025-07-01"
+    ],
+    "rows": 171
+  },
+  {
+    "source_id": "business_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=ff91363f-b326-465e-b8d7-a84f72a5b23d",
+    "local_file": "raw/2026-08-20/business-changes-2025-05-01.json",
+    "bytes": 71431,
+    "sha256": "e7e6358447547be023a49c8695c9f45ca4b6645f41849da64f2e7f9c68f7d45a",
+    "observed_dates": [
+      "2025-05-01"
+    ],
+    "rows": 171
+  },
+  {
+    "source_id": "business_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=bec12eeb-ea96-49af-81ba-571182a9a2dc",
+    "local_file": "raw/2026-08-20/business-changes-2025-04-01.json",
+    "bytes": 71422,
+    "sha256": "572bb654552105d705c3c8e891832d1151db919a9a48bee990541fe53dc9ea07",
+    "observed_dates": [
+      "2025-04-01"
+    ],
+    "rows": 171
+  },
+  {
+    "source_id": "business_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=527d4aaa-dcf7-432f-8ad9-1935c2195697",
+    "local_file": "raw/2026-08-20/business-changes-2025-02-01.json",
+    "bytes": 71404,
+    "sha256": "f16238a2ef8685c7d6b311d1a2f80dcc6d75326075a7e2281f774ae97314d302",
+    "observed_dates": [
+      "2025-02-01"
+    ],
+    "rows": 171
+  },
+  {
+    "source_id": "business_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=d8abb336-1259-45f3-a4e2-6d573cc46a01",
+    "local_file": "raw/2026-08-20/business-changes-2024-12-01.json",
+    "bytes": 71678,
+    "sha256": "c5496801922943f6479245ab14bc5140274560fcfdb194566ecc779e23b71517",
+    "observed_dates": [
+      "2024-12-01"
+    ],
+    "rows": 171
+  },
+  {
+    "source_id": "business_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=d59d9bcb-2b6c-46ba-92e1-d336685b414e",
+    "local_file": "raw/2026-08-20/business-changes-2024-11-01.json",
+    "bytes": 71666,
+    "sha256": "23ad348ad196db7ab5706eaec4eea738b08448c878fca8ef5bf3d65a040d0206",
+    "observed_dates": [
+      "2024-11-01"
+    ],
+    "rows": 171
+  },
+  {
+    "source_id": "business_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=0e68f488-d690-4471-8a24-be3691715149",
+    "local_file": "raw/2026-08-20/business-changes-2024-10-01.json",
+    "bytes": 71664,
+    "sha256": "053e07a0a8b64cf003d1d9c46ee47ab09316fcabf872b083234c64b5417badc3",
+    "observed_dates": [
+      "2024-10-01"
+    ],
+    "rows": 171
+  },
+  {
+    "source_id": "business_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=e99c3b28-c55d-4f94-94b0-a51a3105995d",
+    "local_file": "raw/2026-08-20/business-changes-2024-09-01.json",
+    "bytes": 71670,
+    "sha256": "9fd1235382e443f9ec47d1681149ebdc5c4a7495fb52d917ff230ddd25618290",
+    "observed_dates": [
+      "2024-09-01"
+    ],
+    "rows": 171
+  },
+  {
+    "source_id": "business_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=eb5e7dcf-f2bf-4649-b390-b9a060bb5ff1",
+    "local_file": "raw/2026-08-20/business-changes-2024-08-01.json",
+    "bytes": 71693,
+    "sha256": "c657c83dd5b73b329247d02e070cbc095ad21e5b96d628bcd0e07dcb94a8ada8",
+    "observed_dates": [
+      "2024-08-01"
+    ],
+    "rows": 171
+  },
+  {
+    "source_id": "business_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=1474260c-2d00-4b37-8f8c-aabb8cf14bfd",
+    "local_file": "raw/2026-08-20/business-changes-2024-07-01.json",
+    "bytes": 71667,
+    "sha256": "c5feba511cd2330e22c145b2aeb18799597112f2fb07cd8bf6ddc92f416d119d",
+    "observed_dates": [
+      "2024-07-01"
+    ],
+    "rows": 171
+  },
+  {
+    "source_id": "business_stock_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=c2146d03-0abe-479d-972e-78ac82a9821c",
+    "local_file": "raw/2026-08-20/business-stock-changes-2026-06-01.json",
+    "bytes": 7400,
+    "sha256": "354c41c3954046e5306aecd68f4a296cff283b7d9c3b77dff920fd75d2416de0",
+    "observed_dates": [
+      "2026-06-01"
+    ],
+    "rows": 18
+  },
+  {
+    "source_id": "business_stock_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=94847308-8c2e-461f-8b12-1ae3f4978269",
+    "local_file": "raw/2026-08-20/business-stock-changes-2026-05-01.json",
+    "bytes": 7397,
+    "sha256": "5dce5242bb74cdce8c2757c19f0e617100037f6c789fd9ed51ec337b1a4a96ff",
+    "observed_dates": [
+      "2026-05-01"
+    ],
+    "rows": 18
+  },
+  {
+    "source_id": "business_stock_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=bd94e442-d0d2-4d12-9c53-1d5a49da3315",
+    "local_file": "raw/2026-08-20/business-stock-changes-2026-04-01.json",
+    "bytes": 3734,
+    "sha256": "892fd8435a89064252a6aae4b889ca195561175ba8f3bc06aee4e9b3dd3c4c15",
+    "observed_dates": [
+      "2026-04-01"
+    ],
+    "rows": 9
+  },
+  {
+    "source_id": "business_stock_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=92480744-a6ad-4cc6-ad67-404b78ac802b",
+    "local_file": "raw/2026-08-20/business-stock-changes-2026-03-01.json",
+    "bytes": 7397,
+    "sha256": "54c7d2e783a367a6eb1fa81e268d55e4193e019eeec0ac357a8ae9dcec8ce507",
+    "observed_dates": [
+      "2026-03-01"
+    ],
+    "rows": 18
+  },
+  {
+    "source_id": "business_stock_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=7d348525-67f2-49f6-81fe-6d7c89bc10ea",
+    "local_file": "raw/2026-08-20/business-stock-changes-2026-02-01.json",
+    "bytes": 7396,
+    "sha256": "58e5298da5daad8158c0d9a8e0c4242d8c189c8f963b17083112b3c387c23a08",
+    "observed_dates": [
+      "2026-02-01"
+    ],
+    "rows": 18
+  },
+  {
+    "source_id": "business_stock_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=02f70f3c-ef4a-4a95-8a73-9e60e224fefe",
+    "local_file": "raw/2026-08-20/business-stock-changes-2025-12-01.json",
+    "bytes": 3737,
+    "sha256": "4a638c8aa1b3823e8c85f67ff38e53daf96a6b3f808d66ebe31f8e821f5de2d2",
+    "observed_dates": [
+      "2025-12-01"
+    ],
+    "rows": 9
+  },
+  {
+    "source_id": "business_stock_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=81b62e25-2ffe-48c2-a83d-78498e38ce43",
+    "local_file": "raw/2026-08-20/business-stock-changes-2025-11-01.json",
+    "bytes": 3734,
+    "sha256": "6aecd76ab44af0674e837d3e365441927a1c177d182f124eb4e8be16cbdabd8d",
+    "observed_dates": [
+      "2025-11-01"
+    ],
+    "rows": 9
+  },
+  {
+    "source_id": "business_stock_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=4d5502e1-c4a7-448e-9df6-1ad0ae6b0ea0",
+    "local_file": "raw/2026-08-20/business-stock-changes-2025-08-01.json",
+    "bytes": 3732,
+    "sha256": "9e1a290ac5f53bcfc43929477ee347cdce4633a8c5498931fc980029cb8a9723",
+    "observed_dates": [
+      "2025-08-01"
+    ],
+    "rows": 9
+  },
+  {
+    "source_id": "business_stock_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=60e49387-b308-4183-ac0d-2f37bc9d1091",
+    "local_file": "raw/2026-08-20/business-stock-changes-2025-07-01.json",
+    "bytes": 3735,
+    "sha256": "f2c3e703908b497a4535c70406bffcb421ab3638eca48b7aa32289b9ad3163c9",
+    "observed_dates": [
+      "2025-07-01"
+    ],
+    "rows": 9
+  },
+  {
+    "source_id": "business_stock_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=e2d78e61-0873-40b8-8cee-b41592d33b73",
+    "local_file": "raw/2026-08-20/business-stock-changes-2025-05-01.json",
+    "bytes": 3737,
+    "sha256": "da5049e90083da46c605c9b1a99a59c9db9acd1dec58bbf82208455ded22bbd1",
+    "observed_dates": [
+      "2025-05-01"
+    ],
+    "rows": 9
+  },
+  {
+    "source_id": "business_stock_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=31036762-1fdd-4a37-9fd4-858849141385",
+    "local_file": "raw/2026-08-20/business-stock-changes-2025-04-01.json",
+    "bytes": 3738,
+    "sha256": "b7cc22ad80203399418c18fb83ef5fba8302aa80a4814e03ed919a80bf648902",
+    "observed_dates": [
+      "2025-04-01"
+    ],
+    "rows": 9
+  },
+  {
+    "source_id": "business_stock_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=7af104bf-e514-4a03-9495-d10b2d52a109",
+    "local_file": "raw/2026-08-20/business-stock-changes-2025-02-01.json",
+    "bytes": 3738,
+    "sha256": "093d9ee554d567958a4ce10e615158330546a8c667ce91258ca13dcac789474f",
+    "observed_dates": [
+      "2025-02-01"
+    ],
+    "rows": 9
+  },
+  {
+    "source_id": "business_stock_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=83015cca-23ce-43b5-9101-102c63f6f389",
+    "local_file": "raw/2026-08-20/business-stock-changes-2024-12-01.json",
+    "bytes": 3738,
+    "sha256": "002cea0cba31a9eb171ad902603ec4efcb9709493ae897858dc1d6b3874dca43",
+    "observed_dates": [
+      "2024-12-01"
+    ],
+    "rows": 9
+  },
+  {
+    "source_id": "business_stock_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=a9d423c3-1ebc-4fa4-8f07-1b51158e025a",
+    "local_file": "raw/2026-08-20/business-stock-changes-2024-11-01.json",
+    "bytes": 3736,
+    "sha256": "8f80fb063d7b832aee50d2870ef6f6652ca295da729251ed76611a0f6dddf6c7",
+    "observed_dates": [
+      "2024-11-01"
+    ],
+    "rows": 9
+  },
+  {
+    "source_id": "business_stock_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=97452487-dac4-4ee3-b6b2-5a2794c07705",
+    "local_file": "raw/2026-08-20/business-stock-changes-2024-10-01.json",
+    "bytes": 3736,
+    "sha256": "b1e3e07d075b936a798e280e13b767ce5c03d2ad6c8e67c92c83443f2ad5f606",
+    "observed_dates": [
+      "2024-10-01"
+    ],
+    "rows": 9
+  },
+  {
+    "source_id": "business_stock_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=10ad9ad1-c0f9-49b2-9534-95166e3754cf",
+    "local_file": "raw/2026-08-20/business-stock-changes-2024-09-01.json",
+    "bytes": 3738,
+    "sha256": "bb9fe206a1cb9eebe614c02fa5c93d2421369ca22c019cf040bdc9b0f25f14b5",
+    "observed_dates": [
+      "2024-09-01"
+    ],
+    "rows": 9
+  },
+  {
+    "source_id": "business_stock_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=aaeb15a2-11f0-4450-9972-b8db9fa21072",
+    "local_file": "raw/2026-08-20/business-stock-changes-2024-08-01.json",
+    "bytes": 3737,
+    "sha256": "37d5f9f91b2acecd2b7046e4903d7fcfce9bccd9a3a3397603b68c1c12595d49",
+    "observed_dates": [
+      "2024-08-01"
+    ],
+    "rows": 9
+  },
+  {
+    "source_id": "business_stock_changes_page",
+    "download_url": "https://newdatacenter.taichung.gov.tw/api/v1/no-auth/resource.download?rid=adda8009-61b0-46e7-8ba3-c68abde9f79d",
+    "local_file": "raw/2026-08-20/business-stock-changes-2024-07-01.json",
+    "bytes": 3737,
+    "sha256": "064e75f27c81ddc91cc72bc899a0f2e74cafce7146fc86257974226903fd3216",
+    "observed_dates": [
+      "2024-07-01"
+    ],
+    "rows": 9
+  }
+]

@@ -1,0 +1,27 @@
+field,type,definition,source,validation
+spot_code,integer,官方景點代碼,GetSpots.spotCode,"11, 13, 21, 8043"
+district_id,string,網站內部穩定識別碼,研究者對照,"calligraphy, yizhong, fengjia, gongyi"
+spot_name,string,研究報告商圈名稱,研究設計凍結,
+official_name,string,官方景點名稱,GetSpots.name,
+official_full_name,string,官方完整景點名稱,GetSpots.fullName,
+month,YYYY-MM,觀察月份,API start/end,2025-01..2026-08
+visitors,number,每日去重後人潮人次之月加總,GetPopulation.data.total,> 0
+stay_minutes,number,群體遊客平均連續停留分鐘,GetStayTime.data.stayMinutes,> 0
+revisit_rate_pct,number,同期間再次造訪同一景點之比例,GetRevisit.data,0..100
+attraction_score,number,log1p 人次經 p01/p99 溫莎化及固定基準 min-max 分數,TCDPI Core v1,0..100
+engagement_score,number,停留時間經 p01/p99 溫莎化及固定基準 min-max 分數,TCDPI Core v1,0..100
+loyalty_score,number,回訪率經 p01/p99 溫莎化及固定基準 min-max 分數,TCDPI Core v1,0..100
+tcdpi_score,number,0.40×吸引力＋0.30×投入度＋0.30×黏著度,TCDPI Core v1,0..100
+rank,integer,同月份四區依 TCDPI 由高至低排序,TCDPI Core v1,1..4
+data_status,string,資料性質,研究管線,official
+crs,string,WKT/GeoJSON 座標參考系統,網站前端實作觀察,EPSG:4326; pending agency confirmation
+boundary_sha256,string,原始 WKT UTF-8 文字 SHA-256,GetSpots.wkt,64 lowercase hex characters
+population_response_id,string,官方人流回應識別碼,GetPopulation.id,
+stay_response_id,string,官方停留回應識別碼,GetStayTime.id,
+revisit_response_id,string,官方回訪回應識別碼,GetRevisit.id,
+population_raw_sha256,string,人流原始 JSON SHA-256,source manifest,
+stay_raw_sha256,string,停留原始 JSON SHA-256,source manifest,
+revisit_raw_sha256,string,回訪原始 JSON SHA-256,source manifest,
+fetched_at,ISO-8601,本次資料集建立時間,研究管線,UTC timestamp; manifest preserves per-file timestamps
+source_version,string,來源快照版本,研究管線,tourstats-snapshot-2026-10-22
+method_version,string,研究方法版本,研究管線,TCDPI-core-v1.1.0

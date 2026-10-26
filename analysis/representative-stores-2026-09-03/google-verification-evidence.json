@@ -1,0 +1,650 @@
+[
+  {
+    "district": "逢甲商圈",
+    "original_name": "明倫蛋餅・逢甲福星店",
+    "place_id": "ChIJRw_ShSEWaTQRJOy8z1Z6woI",
+    "google_checked_at": "2026-09-03T15:41:19+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E6%98%8E%E5%80%AB%E8%9B%8B%E9%A4%85+%E9%80%A2%E7%94%B2%E7%A6%8F%E6%98%9F%E5%BA%97/@24.1760043,120.6452868,17z/data=!3m1!4b1!4m6!3m5!1s0x3469162185d20f47:0x82c27a56cfbcec24!8m2!3d24.1760043!4d120.6452868!16s%2Fg%2F11clfn55k5?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"明倫蛋餅 逢甲福星店\" [level=1]: 明倫蛋餅 逢甲福星店\n    - img \"3.7 顆星\"\n    - img \"3,341 則評論\": (3,341)\n      - 'button \"地址: 407臺中市西屯區逢甲里福星路546號\"':\n      - button \"營業時間 即將開始營業 · 16:00 顯示本週營業時間 10 週前已透過電話更新\":\n        - img \"5 星級、1,150 則評論\": \"5\"\n        - img \"4 星級、928 則評論\": \"4\"\n        - img \"3 星級、655 則評論\": \"3\"\n        - img \"2 星級、274 則評論\": \"2\"\n        - img \"1 星級、334 則評論\": \"1\"\n    - img \"3.7 顆星\"\n      - img \"3 顆星\":\n      - img \"4 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": "- button \"鍵盤快速鍵\"\n- region \"地圖\"\n- button\n- dialog:\n  - button \"關閉\" [active]\n  - text: 明倫蛋餅 逢甲福星店\n  - strong: \"Place ID:\"\n  - text: ChIJRw_ShSEWaTQRJOy8z1Z6woI\n  - text: 407台灣臺中市西屯區逢甲里福星路546號\n",
+    "place_id_source_url": "https://geo-devrel-javascript-samples.web.app/samples/places-placeid-finder/app/dist/",
+    "place_id_validation": {},
+    "place_id_validation_evidence": null
+  },
+  {
+    "district": "逢甲商圈",
+    "original_name": "官芝霖大腸包小腸・逢甲店",
+    "place_id": "ChIJX4EYAyMWaTQRG3VgBydiZFg",
+    "google_checked_at": "2026-09-03T15:41:54+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E5%AE%98%E8%8A%9D%E9%9C%96%E5%A4%A7%E8%85%B8%E5%8C%85%E5%B0%8F%E8%85%B8/@24.1790058,120.6430499,17z/data=!3m1!4b1!4m6!3m5!1s0x346916230318815f:0x586462270760751b!8m2!3d24.1790058!4d120.6456248!16s%2Fg%2F1tql2j8c?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"官芝霖大腸包小腸\" [level=1]: 官芝霖大腸包小腸\n    - img \"3.9 顆星\"\n    - img \"2,217 則評論\": (2,217)\n      - 'button \"地址: 407臺中市西屯區逢甲路22號\"':\n      - button \"營業時間 營業中 · 打烊時間：00:00 顯示本週營業時間 這個商家在 8 週前更新過\":\n        - img \"5 星級、1,023 則評論\": \"5\"\n        - img \"4 星級、452 則評論\": \"4\"\n        - img \"3 星級、367 則評論\": \"3\"\n        - img \"2 星級、158 則評論\": \"2\"\n        - img \"1 星級、217 則評論\": \"1\"\n    - img \"3.9 顆星\"\n      - img \"3 顆星\":\n      - img \"3 顆星\":\n      - img \"2 顆星\":",
+    "finder_evidence": "- button \"鍵盤快速鍵\"\n- region \"地圖\"\n- button\n- dialog:\n  - button \"關閉\" [active]\n  - text: 官芝霖大腸包小腸\n  - strong: \"Place ID:\"\n  - text: ChIJX4EYAyMWaTQRG3VgBydiZFg\n  - text: 407台灣臺中市西屯區逢甲路22號\n",
+    "place_id_source_url": "https://geo-devrel-javascript-samples.web.app/samples/places-placeid-finder/app/dist/",
+    "place_id_validation": {},
+    "place_id_validation_evidence": null
+  },
+  {
+    "district": "逢甲商圈",
+    "original_name": "一心素食臭豆腐",
+    "place_id": "ChIJXwQ5SCIWaTQR3tIg68emIqU",
+    "google_checked_at": "2026-09-03T15:42:17+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E4%B8%80%E5%BF%83%E7%B4%A0%E9%A3%9F%E8%87%AD%E8%B1%86%E8%85%90/@24.1778293,120.6427051,17z/data=!3m1!4b1!4m6!3m5!1s0x346916224839045f:0xa522a6c7eb20d2de!8m2!3d24.1778293!4d120.64528!16s%2Fg%2F1wcx9v27?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"一心素食臭豆腐\" [level=1]: 一心素食臭豆腐\n    - img \"3.8 顆星\"\n    - img \"2,877 則評論\": (2,877)\n      - 'button \"地址: 407臺中市西屯區西平里福星路461巷2號\"':\n      - button \"營業時間 即將開始營業 · 16:00 顯示本週營業時間\":\n        - img \"5 星級、1,134 則評論\": \"5\"\n        - img \"4 星級、792 則評論\": \"4\"\n        - img \"3 星級、466 則評論\": \"3\"\n        - img \"2 星級、170 則評論\": \"2\"\n        - img \"1 星級、315 則評論\": \"1\"\n    - img \"3.8 顆星\"\n      - img \"4 顆星\":\n      - img \"3 顆星\":\n      - img \"2 顆星\":",
+    "finder_evidence": "- button \"鍵盤快速鍵\"\n- region \"地圖\"\n- button\n- dialog:\n  - button \"關閉\" [active]\n  - text: 一心素食臭豆腐\n  - strong: \"Place ID:\"\n  - text: ChIJXwQ5SCIWaTQR3tIg68emIqU\n  - text: 407台灣臺中市西屯區西平里福星路461巷2號\n",
+    "place_id_source_url": "https://geo-devrel-javascript-samples.web.app/samples/places-placeid-finder/app/dist/",
+    "place_id_validation": {},
+    "place_id_validation_evidence": null
+  },
+  {
+    "district": "逢甲商圈",
+    "original_name": "日船章魚小丸子・逢甲總店",
+    "place_id": "ChIJRw_ShSEWaTQRdzGvKqfl7Xw",
+    "google_checked_at": "2026-09-03T15:43:07+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E6%97%A5%E8%88%B9%E7%AB%A0%E9%AD%9A%E5%B0%8F%E4%B8%B8%E5%AD%90%EF%BC%88%E9%80%A2%E7%94%B2%E7%B8%BD%E5%BA%97%EF%BC%89/@24.1758867,120.6427697,17z/data=!3m1!4b1!4m6!3m5!1s0x3469162185d20f47:0x7cede5a72aaf3177!8m2!3d24.1758867!4d120.6453446!16s%2Fg%2F11cjhbxq27?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"日船章魚小丸子（逢甲總店）\" [level=1]: 日船章魚小丸子（逢甲總店）\n    - img \"3.6 顆星\"\n    - img \"1,566 則評論\": (1,566)\n      - 'button \"地址: 407臺中市西屯區逢甲里文華路13號\"':\n      - button \"營業時間 即將開始營業 · 15:45 顯示本週營業時間\":\n        - img \"5 星級、551 則評論\": \"5\"\n        - img \"4 星級、451 則評論\": \"4\"\n        - img \"3 星級、254 則評論\": \"3\"\n        - img \"2 星級、78 則評論\": \"2\"\n        - img \"1 星級、232 則評論\": \"1\"\n    - img \"3.6 顆星\"\n      - img \"4 顆星\":\n      - img \"3 顆星\":\n      - img \"3 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/place/%E6%97%A5%E8%88%B9%E7%AB%A0%E9%AD%9A%E5%B0%8F%E4%B8%B8%E5%AD%90%EF%BC%88%E9%80%A2%E7%94%B2%E7%B8%BD%E5%BA%97%EF%BC%89/data=!4m7!3m6!1s0x3469162185d20f47:0x7cede5a72aaf3177!8m2!3d24.1758867!4d120.6453446!16s%2Fg%2F11cjhbxq27!19sChIJRw_ShSEWaTQRdzGvKqfl7Xw?authuser=0&hl=zh-TW&g_ep=EgoyMDI2MDgzMS4wIJJjKgBIAVAD&rclk=1",
+    "place_id_validation": {},
+    "place_id_validation_evidence": null
+  },
+  {
+    "district": "逢甲商圈",
+    "original_name": "逢甲溫家地瓜球",
+    "place_id": "ChIJbYemqSMWaTQRH9o8Cznfgz0",
+    "google_checked_at": "2026-09-03T15:43:43+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E6%BA%AB%E5%AE%B6%E8%80%81%E5%BA%97%E6%AD%A3%E5%AE%97%E9%80%A2%E7%94%B2%E5%9C%B0%E7%93%9C%E7%90%83/@24.1780059,120.6440327,17z/data=!3m1!4b1!4m6!3m5!1s0x34691623a9a6876d:0x3d83df390b3cda1f!8m2!3d24.1780059!4d120.6466076!16s%2Fg%2F1tm864nz?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"溫家老店正宗逢甲地瓜球\" [level=1]: 溫家老店正宗逢甲地瓜球\n    - img \"3.1 顆星\"\n    - img \"1,172 則評論\": (1,172)\n      - 'button \"地址: 407臺中市西屯區逢福里文華路81號對面號\"':\n      - button \"營業時間 已打烊 · 開始營業時間：16:30 顯示本週營業時間\":\n        - img \"5 星級、275 則評論\": \"5\"\n        - img \"4 星級、258 則評論\": \"4\"\n        - img \"3 星級、207 則評論\": \"3\"\n        - img \"2 星級、133 則評論\": \"2\"\n        - img \"1 星級、299 則評論\": \"1\"\n    - img \"3.1 顆星\"\n      - img \"5 顆星\":\n      - img \"3 顆星\":\n      - img \"1 顆星\":",
+    "finder_evidence": "- button \"鍵盤快速鍵\"\n- region \"地圖\"\n- button\n- dialog:\n  - button \"關閉\" [active]\n  - text: 溫家老店正宗逢甲地瓜球\n  - strong: \"Place ID:\"\n  - text: ChIJbYemqSMWaTQRH9o8Cznfgz0\n  - text: 407台灣臺中市西屯區逢福里文華路81號對面號\n",
+    "place_id_source_url": "https://geo-devrel-javascript-samples.web.app/samples/places-placeid-finder/app/dist/",
+    "place_id_validation": {},
+    "place_id_validation_evidence": null
+  },
+  {
+    "district": "逢甲商圈",
+    "original_name": "阿華黑輪・創始店",
+    "place_id": "ChIJu8f7zyMWaTQRYlBpRJIM1Zg",
+    "google_checked_at": "2026-09-03T15:44:26+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E9%98%BF%E8%8F%AF%E9%BB%91%E8%BC%AA%E5%BA%97%EF%BC%88%E5%89%B5%E5%A7%8B%E5%BA%97+%E8%B7%AF%E9%82%8A%E6%94%A4%EF%BC%89/@24.1768148,120.6419058,17z/data=!4m10!1m2!2m1!1z6Zi_6I-v6buR6LyqIOWJteWni-W6lyDmlofoj6_ot68yOeiZnw!3m6!1s0x34691623cffbc7bb:0x98d50c9244695062!8m2!3d24.1768148!4d120.6466694!15sCiXpmL_oj6_pu5HovKog5Ym15aeL5bqXIOaWh-iPr-i3rzI56JmfWi4iLOmYvyDoj68g6buRIOi8qiDlibXlp4sg5bqXIOaWh-iPryDot68gMjkg6JmfkgEPb2Rlbl9yZXN0YXVyYW50mgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJhZDB4aWRVbFJFQUXgAQD6AQQIABAQ!16s%2Fg%2F1tflk53y?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "      - heading \"結果\" [level=1]\n    - heading \"阿華黑輪店（創始店 路邊攤）\" [level=1]: 阿華黑輪店（創始店 路邊攤）\n    - img \"3.5 顆星\"\n    - img \"983 則評論\": (983)\n      - 'button \"地址: 407臺中市西屯區逢福里文華路29號\"':\n      - button \"營業時間 已打烊 · 開始營業時間：17:00 顯示本週營業時間\":\n        - img \"5 星級、443 則評論\": \"5\"\n        - img \"4 星級、113 則評論\": \"4\"\n        - img \"3 星級、116 則評論\": \"3\"\n        - img \"2 星級、70 則評論\": \"2\"\n        - img \"1 星級、241 則評論\": \"1\"\n    - img \"3.5 顆星\"\n      - img \"4 顆星\":\n      - img \"3 顆星\":\n      - img \"3 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/place/%E9%98%BF%E8%8F%AF%E9%BB%91%E8%BC%AA%E5%BA%97%EF%BC%88%E5%89%B5%E5%A7%8B%E5%BA%97+%E8%B7%AF%E9%82%8A%E6%94%A4%EF%BC%89/data=!4m7!3m6!1s0x34691623cffbc7bb:0x98d50c9244695062!8m2!3d24.1768148!4d120.6466694!16s%2Fg%2F1tflk53y!19sChIJu8f7zyMWaTQRYlBpRJIM1Zg?authuser=0&hl=zh-TW&g_ep=EgoyMDI2MDgzMS4wIJJjKgBIAVAD&rclk=1",
+    "place_id_validation": {},
+    "place_id_validation_evidence": null
+  },
+  {
+    "district": "逢甲商圈",
+    "original_name": "刁民酸菜魚・逢甲總本舖",
+    "place_id": "ChIJ9e6JOnYXaTQRLGH8PhtMTdc",
+    "google_checked_at": "2026-09-03T15:44:45+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E5%88%81%E6%B0%91-%E9%85%B8%E8%8F%9C%E9%AD%9A+%E9%80%A2%E7%94%B2%E5%BA%97/@24.1779884,120.6426945,17z/data=!3m1!4b1!4m6!3m5!1s0x346917763a89eef5:0xd74d4c1b3efc612c!8m2!3d24.1779884!4d120.6452694!16s%2Fg%2F11j19tbx8j?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"刁民-酸菜魚 逢甲店\" [level=1]: 刁民-酸菜魚 逢甲店\n    - img \"4.5 顆星\"\n    - img \"7,168 則評論\": (7,168)\n      - 'button \"地址: 407臺中市西屯區西平里福星路459號\"':\n      - button \"營業時間 營業中 · 打烊時間：02:00 顯示本週營業時間\":\n        - img \"5 星級、5,197 則評論\": \"5\"\n        - img \"4 星級、1,046 則評論\": \"4\"\n        - img \"3 星級、390 則評論\": \"3\"\n        - img \"2 星級、143 則評論\": \"2\"\n        - img \"1 星級、392 則評論\": \"1\"\n    - img \"4.5 顆星\"\n      - img \"3 顆星\":\n      - img \"5 顆星\":\n      - img \"3 顆星\":",
+    "finder_evidence": "- button \"鍵盤快速鍵\"\n- region \"地圖\"\n- button\n- dialog:\n  - button \"關閉\" [active]\n  - text: 刁民-酸菜魚 逢甲店\n  - strong: \"Place ID:\"\n  - text: ChIJ9e6JOnYXaTQRLGH8PhtMTdc\n  - text: 407台灣臺中市西屯區西平里福星路459號\n",
+    "place_id_source_url": "https://geo-devrel-javascript-samples.web.app/samples/places-placeid-finder/app/dist/",
+    "place_id_validation": {},
+    "place_id_validation_evidence": null
+  },
+  {
+    "district": "逢甲商圈",
+    "original_name": "激旨燒鳥・逢甲總店",
+    "place_id": "ChIJhYGC5TwWaTQRtFw0QBzL44s",
+    "google_checked_at": "2026-09-03T15:44:45+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E6%BF%80%E6%97%A8%E7%87%92%E3%81%8D%E9%B3%A5Gekiuma+Yakitori+%E5%8F%B0%E7%81%A3%E7%B8%BD%E5%BA%97/@24.1831207,120.6437882,17z/data=!3m1!4b1!4m6!3m5!1s0x3469163ce5828185:0x8be3cb1c40345cb4!8m2!3d24.1831207!4d120.6463631!16s%2Fg%2F11g_x90bz?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"激旨燒き鳥Gekiuma Yakitori 台灣總店\" [level=1]: 激旨燒き鳥Gekiuma Yakitori 台灣總店\n    - img \"4.3 顆星\"\n    - img \"3,595 則評論\": (3,595)\n      - 'button \"地址: 18號 No. 150巷, 文華路西平里西屯區臺中市407\"':\n      - button \"營業時間 已打烊 · 開始營業時間：17:00 顯示本週營業時間\":\n        - img \"5 星級、2,128 則評論\": \"5\"\n        - img \"4 星級、871 則評論\": \"4\"\n        - img \"3 星級、271 則評論\": \"3\"\n        - img \"2 星級、93 則評論\": \"2\"\n        - img \"1 星級、232 則評論\": \"1\"\n    - img \"4.3 顆星\"\n      - img \"3 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": "- button \"鍵盤快速鍵\"\n- region \"地圖\"\n- button\n- dialog:\n  - button \"關閉\" [active]\n  - text: 激旨燒き鳥Gekiuma Yakitori 台灣總店\n  - strong: \"Place ID:\"\n  - text: ChIJhYGC5TwWaTQRtFw0QBzL44s\n  - text: 18號 No. 150巷, 文華路西平里西屯區臺中市台灣 407\n",
+    "place_id_source_url": "https://geo-devrel-javascript-samples.web.app/samples/places-placeid-finder/app/dist/",
+    "place_id_validation": {},
+    "place_id_validation_evidence": null
+  },
+  {
+    "district": "逢甲商圈",
+    "original_name": "大甲芋頭城・逢甲店",
+    "place_id": "ChIJB55rSSIWaTQRsoxtMvwPzWE",
+    "google_checked_at": "2026-09-03T15:45:27+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E5%A4%A7%E7%94%B2%E8%8A%8B%E9%A0%AD%E5%9F%8E%E9%80%A2%E7%94%B2%E5%BA%97/@24.1778217,120.6427601,17z/data=!3m1!4b1!4m6!3m5!1s0x34691622496b9e07:0x61cd0ffc326d8cb2!8m2!3d24.1778217!4d120.645335!16s%2Fg%2F1tdw5syf?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"大甲芋頭城逢甲店\" [level=1]: 大甲芋頭城逢甲店\n    - img \"4.0 顆星\"\n    - img \"1,388 則評論\": (1,388)\n      - 'button \"地址: 407臺中市西屯區西平里福星路461巷2號\"':\n      - button \"營業時間 營業中 · 打烊時間：23:30 顯示本週營業時間\":\n        - img \"5 星級、675 則評論\": \"5\"\n        - img \"4 星級、410 則評論\": \"4\"\n        - img \"3 星級、122 則評論\": \"3\"\n        - img \"2 星級、47 則評論\": \"2\"\n        - img \"1 星級、134 則評論\": \"1\"\n    - img \"4.0 顆星\"\n      - img \"4 顆星\":\n      - img \"4 顆星\":\n      - img \"3 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/place/%E5%A4%A7%E7%94%B2%E8%8A%8B%E9%A0%AD%E5%9F%8E%E9%80%A2%E7%94%B2%E5%BA%97/data=!4m7!3m6!1s0x34691622496b9e07:0x61cd0ffc326d8cb2!8m2!3d24.1778217!4d120.645335!16s%2Fg%2F1tdw5syf!19sChIJB55rSSIWaTQRsoxtMvwPzWE?authuser=0&hl=zh-TW&g_ep=EgoyMDI2MDgzMS4wIJJjKgBIAVAD&rclk=1",
+    "place_id_validation": {},
+    "place_id_validation_evidence": null
+  },
+  {
+    "district": "逢甲商圈",
+    "original_name": "光南大批發・台中逢甲店",
+    "place_id": "ChIJf4ES-CIWaTQRW__4suodnE0",
+    "google_checked_at": "2026-09-03T15:45:40+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E5%85%89%E5%8D%97%E5%A4%A7%E6%89%B9%E7%99%BC%E5%8F%B0%E4%B8%AD%E9%80%A2%E7%94%B2%E5%BA%97/@24.1789041,120.6427594,17z/data=!3m1!4b1!4m6!3m5!1s0x34691622f812817f:0x4d9c1deab2f8ff5b!8m2!3d24.1789041!4d120.6453343!16s%2Fg%2F12hq81y77?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"光南大批發台中逢甲店\" [level=1]: 光南大批發台中逢甲店\n    - img \"4.2 顆星\"\n    - img \"1,003 則評論\": (1,003)\n      - 'button \"地址: 407臺中市西屯區西平里福星路427號B1\"':\n      - button \"營業時間 營業中 · 打烊時間：22:30 顯示本週營業時間\":\n        - img \"5 星級、527 則評論\": \"5\"\n        - img \"4 星級、287 則評論\": \"4\"\n        - img \"3 星級、96 則評論\": \"3\"\n        - img \"2 星級、12 則評論\": \"2\"\n        - img \"1 星級、81 則評論\": \"1\"\n    - img \"4.2 顆星\"\n      - img \"5 顆星\":\n      - img \"1 顆星\":\n      - img \"1 顆星\":",
+    "finder_evidence": "- button \"鍵盤快速鍵\"\n- region \"地圖\"\n- button\n- dialog:\n  - button \"關閉\" [active]\n  - text: 光南大批發台中逢甲店\n  - strong: \"Place ID:\"\n  - text: ChIJf4ES-CIWaTQRW__4suodnE0\n  - text: 407台灣臺中市西屯區西平里福星路427號B1\n",
+    "place_id_source_url": "https://geo-devrel-javascript-samples.web.app/samples/places-placeid-finder/app/dist/",
+    "place_id_validation": {},
+    "place_id_validation_evidence": null
+  },
+  {
+    "district": "一中商圈",
+    "original_name": "一中豐仁冰",
+    "place_id": "ChIJJ64IUWg9aTQRHHEx8oENpfU",
+    "google_checked_at": "2026-09-03T15:46:13+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E4%B8%80%E4%B8%AD%E8%B1%90%E4%BB%81%E5%86%B0/@24.1489264,120.6840369,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d685108ae27:0xf5a50d81f231711c!8m2!3d24.1489264!4d120.6866118!16s%2Fg%2F1tdmms_p?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"一中豐仁冰\" [level=1]: 一中豐仁冰\n    - img \"4.2 顆星\"\n    - img \"2,402 則評論\": (2,402)\n      - 'button \"地址: 404臺中市北區新北里育才街3巷4-6號\"':\n      - button \"營業時間 營業中 · 打烊時間：22:00 顯示本週營業時間\":\n        - img \"5 星級、1,237 則評論\": \"5\"\n        - img \"4 星級、703 則評論\": \"4\"\n        - img \"3 星級、297 則評論\": \"3\"\n        - img \"2 星級、71 則評論\": \"2\"\n        - img \"1 星級、94 則評論\": \"1\"\n    - img \"4.2 顆星\"\n      - img \"2 顆星\":\n      - img \"4 顆星\":\n      - img \"4 顆星\":",
+    "finder_evidence": "- button \"鍵盤快速鍵\"\n- region \"地圖\"\n- button\n- dialog:\n  - button \"關閉\" [active]\n  - text: 一中豐仁冰\n  - strong: \"Place ID:\"\n  - text: ChIJJ64IUWg9aTQRHHEx8oENpfU\n  - text: 404台灣臺中市北區新北里育才街3巷4-6號\n",
+    "place_id_source_url": "https://geo-devrel-javascript-samples.web.app/samples/places-placeid-finder/app/dist/",
+    "place_id_validation": {},
+    "place_id_validation_evidence": null
+  },
+  {
+    "district": "一中商圈",
+    "original_name": "一中豪大雞排",
+    "place_id": "ChIJpQ3NH2k9aTQRGr4PoO9oG2Q",
+    "google_checked_at": "2026-09-03T15:46:13+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E4%B8%80%E4%B8%AD%E8%B1%AA%E5%A4%A7%E9%9B%9E%E6%8E%92/@24.1490269,120.6822427,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d691fcd0da5:0x641b68efa00fbe1a!8m2!3d24.1490269!4d120.6848176!16s%2Fg%2F1v1shz0c?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"一中豪大雞排\" [level=1]: 一中豪大雞排\n    - img \"3.4 顆星\"\n    - img \"1,247 則評論\": (1,247)\n      - 'button \"地址: 404臺中市北區一中街49號\"':\n      - button \"營業時間 營業中 · 打烊時間：23:00 顯示本週營業時間\":\n        - img \"5 星級、361 則評論\": \"5\"\n        - img \"4 星級、326 則評論\": \"4\"\n        - img \"3 星級、221 則評論\": \"3\"\n        - img \"2 星級、104 則評論\": \"2\"\n        - img \"1 星級、235 則評論\": \"1\"\n    - img \"3.4 顆星\"\n      - img \"3 顆星\":\n      - img \"5 顆星\":\n      - img \"4 顆星\":",
+    "finder_evidence": "- button \"鍵盤快速鍵\"\n- region \"地圖\"\n- button\n- dialog:\n  - button \"關閉\" [active]\n  - text: 一中豪大雞排\n  - strong: \"Place ID:\"\n  - text: ChIJpQ3NH2k9aTQRGr4PoO9oG2Q\n  - text: 404台灣臺中市北區一中街49號\n",
+    "place_id_source_url": "https://geo-devrel-javascript-samples.web.app/samples/places-placeid-finder/app/dist/",
+    "place_id_validation": {},
+    "place_id_validation_evidence": null
+  },
+  {
+    "district": "一中商圈",
+    "original_name": "阿月紅茶冰・愛廣場店",
+    "place_id": "ChIJCf_G5Wg9aTQRPUmJrVZox4Q",
+    "google_checked_at": "2026-09-03T15:47:03+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E9%98%BF%E6%9C%88%E7%B4%85%E8%8C%B6%E5%86%B0+(%E6%84%9B%E5%BB%A3%E5%A0%B4)/@24.1489264,120.6840369,17z/data=!4m10!1m2!2m1!1z6Zi_5pyI57SF6Iy25YawIOaEm-W7o-WgtCDkuIDkuK3ooZc5NuiZnw!3m6!1s0x34693d68e5c6ff09:0x84c76856ad89493d!8m2!3d24.1493425!4d120.6852026!15sCijpmL_mnIjntIXojLblhrAg5oSb5buj5aC0IOS4gOS4reihlzk26JmfWjIiMOmYvyDmnIgg57SF6Iy2IOWGsCDmhJsg5buj5aC0IOS4gCDkuK0g6KGXIDk2IOiZn5IBGGljZV9jcmVhbV9hbmRfZHJpbmtfc2hvcJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVOM1gxQnlRa3RCRUFF4AEA-gEECAAQBw!16s%2Fg%2F11gd20ljwx?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "      - heading \"結果\" [level=1]\n    - heading \"阿月紅茶冰 (愛廣場)\" [level=1]: 阿月紅茶冰 (愛廣場)\n    - img \"2.5 顆星\"\n    - img \"366 則評論\": (366)\n      - 'button \"地址: 404臺中市北區新北里一中街96號1F-04\"':\n      - button \"營業時間 營業中 · 打烊時間：23:00 顯示本週營業時間\":\n        - img \"5 星級、81 則評論\": \"5\"\n        - img \"4 星級、29 則評論\": \"4\"\n        - img \"3 星級、50 則評論\": \"3\"\n        - img \"2 星級、28 則評論\": \"2\"\n        - img \"1 星級、178 則評論\": \"1\"\n    - img \"2.5 顆星\"\n      - img \"3 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/place/%E9%98%BF%E6%9C%88%E7%B4%85%E8%8C%B6%E5%86%B0+%28%E6%84%9B%E5%BB%A3%E5%A0%B4%29/data=!4m7!3m6!1s0x34693d68e5c6ff09:0x84c76856ad89493d!8m2!3d24.1493425!4d120.6852026!16s%2Fg%2F11gd20ljwx!19sChIJCf_G5Wg9aTQRPUmJrVZox4Q?authuser=0&hl=zh-TW&g_ep=EgoyMDI2MDgzMS4wIJJjKgBIAVAD&rclk=1",
+    "place_id_validation": {},
+    "place_id_validation_evidence": null
+  },
+  {
+    "district": "一中商圈",
+    "original_name": "半月燒餡餅專賣店・一中總店",
+    "place_id": "ChIJO_EIqGk9aTQRhcp-0DaUgH8",
+    "google_checked_at": "2026-09-03T15:46:29+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E7%9B%A7%E3%81%AE%E5%A0%A1%E5%8D%8A%E6%9C%88%E7%87%92%E9%A4%A1%E9%A4%85%E4%B8%80%E4%B8%AD%E7%9B%B4%E7%87%9F%E5%BA%97/@24.1484032,120.6826029,17z/data=!3m2!4b1!5s0x34693d69754fa175:0x680e56c632893f07!4m6!3m5!1s0x34693d69a808f13b:0x7f809436d07eca85!8m2!3d24.1484032!4d120.6851778!16s%2Fg%2F1tjz5pq2?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"盧の堡半月燒餡餅一中直營店\" [level=1]: 盧の堡半月燒餡餅一中直營店\n    - img \"4.2 顆星\"\n    - img \"571 則評論\": (571)\n      - 'button \"地址: 404臺中市北區新北里育才南街33號\"':\n      - button \"營業時間 營業中 · 打烊時間：21:30 顯示本週營業時間 這個商家在 9 週前更新過\":\n        - img \"5 星級、285 則評論\": \"5\"\n        - img \"4 星級、185 則評論\": \"4\"\n        - img \"3 星級、60 則評論\": \"3\"\n        - img \"2 星級、20 則評論\": \"2\"\n        - img \"1 星級、21 則評論\": \"1\"\n    - img \"4.2 顆星\"\n      - img \"4 顆星\":\n      - img \"5 顆星\":\n      - img \"4 顆星\":",
+    "finder_evidence": "- button \"鍵盤快速鍵\"\n- region \"地圖\"\n- button\n- dialog:\n  - button \"關閉\" [active]\n  - text: 盧の堡半月燒餡餅一中直營店\n  - strong: \"Place ID:\"\n  - text: ChIJO_EIqGk9aTQRhcp-0DaUgH8\n  - text: 404台灣臺中市北區新北里育才南街33號\n",
+    "place_id_source_url": "https://geo-devrel-javascript-samples.web.app/samples/places-placeid-finder/app/dist/",
+    "place_id_validation": {},
+    "place_id_validation_evidence": null
+  },
+  {
+    "district": "一中商圈",
+    "original_name": "王印製麵麻辣乾麵",
+    "place_id": "ChIJsSj7Pmk9aTQR10QeXH-bHeQ",
+    "google_checked_at": "2026-09-03T15:47:03+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E7%8E%8B%E5%8D%B0%E8%A3%BD%E9%BA%B5%E9%BA%BB%E8%BE%A3%E4%B9%BE%E9%BA%B5/@24.1476635,120.6818285,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d693efb28b1:0xe41d9b7f5c1e44d7!8m2!3d24.1476635!4d120.6844034!16s%2Fg%2F1trsvrjw?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"王印製麵麻辣乾麵\" [level=1]: 王印製麵麻辣乾麵\n    - img \"2.9 顆星\"\n    - img \"1,526 則評論\": (1,526)\n      - 'button \"地址: 404臺中市北區新興里太平路65號\"':\n      - button \"營業時間 營業中 · 打烊時間：21:30 顯示本週營業時間\":\n        - img \"5 星級、306 則評論\": \"5\"\n        - img \"4 星級、296 則評論\": \"4\"\n        - img \"3 星級、269 則評論\": \"3\"\n        - img \"2 星級、175 則評論\": \"2\"\n        - img \"1 星級、480 則評論\": \"1\"\n    - img \"2.9 顆星\"\n      - img \"3 顆星\":\n      - img \"3 顆星\":\n      - img \"1 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJsSj7Pmk9aTQR10QeXH-bHeQ",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:24:49.576Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJsSj7Pmk9aTQR10QeXH-bHeQ",
+      "resolved_url": "https://www.google.com/maps/place/%E7%8E%8B%E5%8D%B0%E8%A3%BD%E9%BA%B5%E9%BA%BB%E8%BE%A3%E4%B9%BE%E9%BA%B5/@24.1476635,120.6844034,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d693efb28b1:0xe41d9b7f5c1e44d7!8m2!3d24.1476635!4d120.6844034!16s%2Fg%2F1trsvrjw?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+      "match": true,
+      "name_match": true,
+      "address_match": true
+    },
+    "place_id_validation_evidence": "    - heading \"王印製麵麻辣乾麵\" [level=1]: 王印製麵麻辣乾麵\n    - img \"2.9 顆星\"\n    - img \"1,526 則評論\": (1,526)\n      - 'button \"地址: 404臺中市北區新興里太平路65號\"':\n      - button \"營業時間 營業中 · 打烊時間：21:30 顯示本週營業時間\":\n        - img \"5 星級、306 則評論\": \"5\"\n        - img \"4 星級、296 則評論\": \"4\"\n        - img \"3 星級、269 則評論\": \"3\"\n        - img \"2 星級、175 則評論\": \"2\"\n        - img \"1 星級、480 則評論\": \"1\"\n    - img \"2.9 顆星\"\n      - img \"3 顆星\":\n      - img \"3 顆星\":\n      - img \"1 顆星\":"
+  },
+  {
+    "district": "一中商圈",
+    "original_name": "上和園滷味",
+    "place_id": "ChIJAS4w72g9aTQREQh5diIRoso",
+    "google_checked_at": "2026-09-03T15:47:32+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E4%B8%8A%E5%92%8C%E5%9C%92%E6%BB%B7%E5%91%B3/@24.1496137,120.6825066,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d68ef302e01:0xcaa2112276790811!8m2!3d24.1496137!4d120.6850815!16s%2Fg%2F1tgn7c52?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"上和園滷味\" [level=1]: 上和園滷味\n    - img \"4.0 顆星\"\n    - img \"1,588 則評論\": (1,588)\n      - 'button \"地址: 40444臺中市北區新北里育才街4號\"':\n      - button \"營業時間 營業中 · 打烊時間：22:00 顯示本週營業時間\":\n        - img \"5 星級、745 則評論\": \"5\"\n        - img \"4 星級、482 則評論\": \"4\"\n        - img \"3 星級、168 則評論\": \"3\"\n        - img \"2 星級、48 則評論\": \"2\"\n        - img \"1 星級、145 則評論\": \"1\"\n    - img \"4.0 顆星\"\n      - img \"5 顆星\":\n      - img \"4 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJAS4w72g9aTQREQh5diIRoso",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:24:49.627Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJAS4w72g9aTQREQh5diIRoso",
+      "resolved_url": "https://www.google.com/maps/place/%E4%B8%8A%E5%92%8C%E5%9C%92%E6%BB%B7%E5%91%B3/@24.1496137,120.6850815,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d68ef302e01:0xcaa2112276790811!8m2!3d24.1496137!4d120.6850815!16s%2Fg%2F1tgn7c52?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+      "match": true,
+      "name_match": true,
+      "address_match": true
+    },
+    "place_id_validation_evidence": "    - heading \"上和園滷味\" [level=1]: 上和園滷味\n    - img \"4.0 顆星\"\n    - img \"1,588 則評論\": (1,588)\n      - 'button \"地址: 40444臺中市北區新北里育才街4號\"':\n      - button \"營業時間 營業中 · 打烊時間：22:00 顯示本週營業時間\":\n        - img \"5 星級、745 則評論\": \"5\"\n        - img \"4 星級、482 則評論\": \"4\"\n        - img \"3 星級、168 則評論\": \"3\"\n        - img \"2 星級、48 則評論\": \"2\"\n        - img \"1 星級、145 則評論\": \"1\"\n    - img \"4.0 顆星\"\n      - img \"5 顆星\":\n      - img \"4 顆星\":\n      - img \"5 顆星\":"
+  },
+  {
+    "district": "一中商圈",
+    "original_name": "打餅舖・一中店",
+    "place_id": "ChIJL55X7Gg9aTQRxcLZc8VOoAA",
+    "google_checked_at": "2026-09-03T15:47:32+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E4%B8%80%E4%B8%AD%E8%A1%97%E6%89%93%E9%A4%85%E8%88%96%E7%83%99%E9%A4%85/@24.1492292,120.6822945,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d68ec579e2f:0xa04ec573d9c2c5!8m2!3d24.1492292!4d120.6848694!16s%2Fg%2F1tdk_98m?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"一中街打餅舖烙餅\" [level=1]: 一中街打餅舖烙餅\n    - img \"4.0 顆星\"\n    - img \"640 則評論\": (640)\n      - 'button \"地址: 404臺中市北區新北里一中街83號\"':\n      - button \"營業時間 營業中 · 打烊時間：22:30 顯示本週營業時間\":\n        - img \"5 星級、314 則評論\": \"5\"\n        - img \"4 星級、174 則評論\": \"4\"\n        - img \"3 星級、79 則評論\": \"3\"\n        - img \"2 星級、12 則評論\": \"2\"\n        - img \"1 星級、61 則評論\": \"1\"\n    - img \"4.0 顆星\"\n      - img \"3 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": "- button \"鍵盤快速鍵\"\n- region \"地圖\"\n- button\n- dialog:\n  - button \"關閉\" [active]\n  - text: 一中街打餅舖烙餅\n  - strong: \"Place ID:\"\n  - text: ChIJL55X7Gg9aTQRxcLZc8VOoAA\n  - text: 404台灣臺中市北區新北里一中街83號\n",
+    "place_id_source_url": "https://geo-devrel-javascript-samples.web.app/samples/places-placeid-finder/app/dist/",
+    "place_id_validation": {},
+    "place_id_validation_evidence": null
+  },
+  {
+    "district": "一中商圈",
+    "original_name": "HUN混・一中店",
+    "place_id": "ChIJnf18xGg9aTQRmjYlRZ4SPfs",
+    "google_checked_at": "2026-09-03T15:47:52+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/HUN%E6%B7%B7+%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5+%E4%B8%80%E4%B8%AD%E5%BA%97/@24.149876,120.6817421,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d68c47cfd9d:0xfb3d129e4525369a!8m2!3d24.149876!4d120.684317!16s%2Fg%2F11b634bwyd?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"HUN混 義大利麵 一中店\" [level=1]: HUN混 義大利麵 一中店\n    - img \"4.6 顆星\"\n    - img \"5,684 則評論\": (5,684)\n      - 'button \"地址: 404臺中市北區新北里三民路三段114號2樓\"':\n      - button \"營業時間 營業中 · 打烊時間：22:00 顯示本週營業時間\":\n        - img \"5 星級、4,211 則評論\": \"5\"\n        - img \"4 星級、881 則評論\": \"4\"\n        - img \"3 星級、296 則評論\": \"3\"\n        - img \"2 星級、114 則評論\": \"2\"\n        - img \"1 星級、182 則評論\": \"1\"\n    - img \"4.6 顆星\"\n      - img \"4 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJnf18xGg9aTQRmjYlRZ4SPfs",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:25:05.053Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJnf18xGg9aTQRmjYlRZ4SPfs",
+      "resolved_url": "https://www.google.com/maps/place/HUN%E6%B7%B7+%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5+%E4%B8%80%E4%B8%AD%E5%BA%97/@24.149876,120.684317,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d68c47cfd9d:0xfb3d129e4525369a!8m2!3d24.149876!4d120.684317!16s%2Fg%2F11b634bwyd?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+      "match": true,
+      "name_match": true,
+      "address_match": true
+    },
+    "place_id_validation_evidence": "    - heading \"HUN混 義大利麵 一中店\" [level=1]: HUN混 義大利麵 一中店\n    - img \"4.6 顆星\"\n    - img \"5,684 則評論\": (5,684)\n      - 'button \"地址: 404臺中市北區新北里三民路三段114號2樓\"':\n      - button \"營業時間 營業中 · 打烊時間：22:00 顯示本週營業時間\":\n        - img \"5 星級、4,211 則評論\": \"5\"\n        - img \"4 星級、881 則評論\": \"4\"\n        - img \"3 星級、296 則評論\": \"3\"\n        - img \"2 星級、114 則評論\": \"2\"\n        - img \"1 星級、182 則評論\": \"1\"\n    - img \"4.6 顆星\"\n      - img \"4 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":"
+  },
+  {
+    "district": "一中商圈",
+    "original_name": "墊腳石・台中旗艦店",
+    "place_id": "ChIJR5Y-L2k9aTQRx34Ck41s_WM",
+    "google_checked_at": "2026-09-03T15:47:52+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E5%A2%8A%E8%85%B3%E7%9F%B3%E5%9C%96%E6%9B%B8%E6%96%87%E5%8C%96%E5%BB%A3%E5%A0%B4+%E5%8F%B0%E4%B8%AD%E6%97%97%E8%89%A6%E5%BA%97/@24.1487558,120.6812973,17z/data=!3m2!4b1!5s0x34693d692f41da87:0x32c67aa9388deba4!4m6!3m5!1s0x34693d692f3e9647:0x63fd6c8d93027ec7!8m2!3d24.1487558!4d120.6838722!16s%2Fg%2F1tfvqq39?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"墊腳石圖書文化廣場 台中旗艦店\" [level=1]: 墊腳石圖書文化廣場 台中旗艦店\n    - img \"4.5 顆星\"\n    - img \"6,687 則評論\": (6,687)\n      - 'button \"地址: 404臺中市北區新興里三民路三段88號\"':\n      - button \"營業時間 營業中 · 打烊時間：00:00 顯示本週營業時間\":\n        - img \"5 星級、4,236 則評論\": \"5\"\n        - img \"4 星級、1,816 則評論\": \"4\"\n        - img \"3 星級、407 則評論\": \"3\"\n        - img \"2 星級、60 則評論\": \"2\"\n        - img \"1 星級、168 則評論\": \"1\"\n    - img \"4.5 顆星\"\n      - img \"5 顆星\":\n      - img \"4 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJR5Y-L2k9aTQRx34Ck41s_WM",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:25:05.097Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJR5Y-L2k9aTQRx34Ck41s_WM",
+      "resolved_url": "https://www.google.com/maps/place/%E5%A2%8A%E8%85%B3%E7%9F%B3%E5%9C%96%E6%9B%B8%E6%96%87%E5%8C%96%E5%BB%A3%E5%A0%B4+%E5%8F%B0%E4%B8%AD%E6%97%97%E8%89%A6%E5%BA%97/@24.1487558,120.6838722,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d692f3e9647:0x63fd6c8d93027ec7!8m2!3d24.1487558!4d120.6838722!16s%2Fg%2F1tfvqq39?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+      "match": true,
+      "name_match": true,
+      "address_match": true
+    },
+    "place_id_validation_evidence": "    - heading \"墊腳石圖書文化廣場 台中旗艦店\" [level=1]: 墊腳石圖書文化廣場 台中旗艦店\n    - img \"4.5 顆星\"\n    - img \"6,687 則評論\": (6,687)\n      - 'button \"地址: 404臺中市北區新興里三民路三段88號\"':\n      - button \"營業時間 營業中 · 打烊時間：00:00 顯示本週營業時間\":\n        - img \"5 星級、4,236 則評論\": \"5\"\n        - img \"4 星級、1,816 則評論\": \"4\"\n        - img \"3 星級、407 則評論\": \"3\"\n        - img \"2 星級、60 則評論\": \"2\"\n        - img \"1 星級、168 則評論\": \"1\"\n    - img \"4.5 顆星\"\n      - img \"5 顆星\":\n      - img \"4 顆星\":\n      - img \"5 顆星\":"
+  },
+  {
+    "district": "一中商圈",
+    "original_name": "誠品書店・中友店",
+    "place_id": "ChIJzThsImY9aTQRGbowpXZD52M",
+    "google_checked_at": "2026-09-03T15:48:14+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E8%AA%A0%E5%93%81%E7%94%9F%E6%B4%BB%E4%B8%AD%E5%8F%8B%E5%BA%97/@24.1522173,120.682208,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d66226c38cd:0x63e74376a530ba19!8m2!3d24.1522173!4d120.6847829!16s%2Fg%2F1tgntzdn?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"誠品生活中友店\" [level=1]: 誠品生活中友店\n    - img \"4.6 顆星\"\n    - img \"2,824 則評論\": (2,824)\n      - 'button \"地址: 404臺中市北區錦平里三民路三段161號中友百貨C棟10F\"':\n      - button \"營業時間 營業中 · 打烊時間：21:30 顯示本週營業時間\":\n        - img \"5 星級、1,897 則評論\": \"5\"\n        - img \"4 星級、745 則評論\": \"4\"\n        - img \"3 星級、111 則評論\": \"3\"\n        - img \"2 星級、17 則評論\": \"2\"\n        - img \"1 星級、54 則評論\": \"1\"\n    - img \"4.6 顆星\"\n      - img \"4 顆星\":\n      - img \"4 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJzThsImY9aTQRGbowpXZD52M",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:25:06.161Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJzThsImY9aTQRGbowpXZD52M",
+      "resolved_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJzThsImY9aTQRGbowpXZD52M",
+      "match": true,
+      "name_match": true,
+      "address_match": true
+    },
+    "place_id_validation_evidence": "    - heading \"誠品生活中友店\" [level=1]: 誠品生活中友店\n    - img \"4.6 顆星\"\n    - img \"2,824 則評論\": (2,824)\n      - 'button \"地址: 404臺中市北區錦平里三民路三段161號中友百貨C棟10F\"':\n      - button \"營業時間 營業中 · 打烊時間：21:30 顯示本週營業時間\":\n        - img \"5 星級、1,897 則評論\": \"5\"\n        - img \"4 星級、745 則評論\": \"4\"\n        - img \"3 星級、111 則評論\": \"3\"\n        - img \"2 星級、17 則評論\": \"2\"\n        - img \"1 星級、54 則評論\": \"1\"\n    - img \"4.6 顆星\"\n      - img \"4 顆星\":\n      - img \"4 顆星\":\n      - img \"5 顆星\":"
+  },
+  {
+    "district": "公益路商圈",
+    "original_name": "輕井澤鍋物・公益店",
+    "place_id": "ChIJTeBTY5c9aTQRBxv5dLXr4kE",
+    "google_checked_at": "2026-09-03T15:48:14+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E8%BC%95%E4%BA%95%E6%BE%A4+%E5%85%AC%E7%9B%8A%E5%BA%97/@24.1511883,120.6515226,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d976353e04d:0x41e2ebb574f91b07!8m2!3d24.1511883!4d120.6540975!16s%2Fg%2F11b6t84bhd?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"輕井澤 公益店\" [level=1]: 輕井澤 公益店\n    - img \"4.3 顆星\"\n    - img \"12,411 則評論\": (12,411)\n      - 'button \"地址: 403臺中市西區公平里公益路276號\"':\n      - button \"營業中 · 打烊時間：02:00·查看更詳細的營業時間\":\n        - img \"5 星級、7,066 則評論\": \"5\"\n        - img \"4 星級、3,631 則評論\": \"4\"\n        - img \"3 星級、1,047 則評論\": \"3\"\n        - img \"2 星級、241 則評論\": \"2\"\n        - img \"1 星級、426 則評論\": \"1\"\n    - img \"4.3 顆星\"\n      - img \"4 顆星\":\n      - img \"5 顆星\":\n      - img \"4 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJTeBTY5c9aTQRBxv5dLXr4kE",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:25:06.699Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJTeBTY5c9aTQRBxv5dLXr4kE",
+      "resolved_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJTeBTY5c9aTQRBxv5dLXr4kE",
+      "match": true,
+      "name_match": true,
+      "address_match": true
+    },
+    "place_id_validation_evidence": "    - heading \"輕井澤 公益店\" [level=1]: 輕井澤 公益店\n    - img \"4.3 顆星\"\n    - img \"12,411 則評論\": (12,411)\n      - 'button \"地址: 403臺中市西區公平里公益路276號\"':\n      - button \"營業中 · 打烊時間：02:00·查看更詳細的營業時間\":\n        - img \"5 星級、7,066 則評論\": \"5\"\n        - img \"4 星級、3,631 則評論\": \"4\"\n        - img \"3 星級、1,047 則評論\": \"3\"\n        - img \"2 星級、241 則評論\": \"2\"\n        - img \"1 星級、426 則評論\": \"1\"\n    - img \"4.3 顆星\"\n      - img \"4 顆星\":\n      - img \"5 顆星\":\n      - img \"4 顆星\":"
+  },
+  {
+    "district": "公益路商圈",
+    "original_name": "茶六燒肉堂・公益店",
+    "place_id": "ChIJJ6o8Qtg9aTQRdPMUo5sVQYY",
+    "google_checked_at": "2026-09-03T15:48:43+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E8%8C%B6%E5%85%AD%E7%87%92%E8%82%89%E5%A0%82+%E5%85%AC%E7%9B%8A%E5%BA%97/@24.1510143,120.6518018,17z/data=!3m1!4b1!4m6!3m5!1s0x34693dd8423caa27:0x8641159ba314f374!8m2!3d24.1510143!4d120.6543767!16s%2Fg%2F11h285s4ww?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"茶六燒肉堂 公益店\" [level=1]: 茶六燒肉堂 公益店\n    - img \"4.7 顆星\"\n    - img \"20,415 則評論\": (20,415)\n      - 'button \"地址: 403臺中市西區公平里公益路268號\"':\n      - button \"營業時間 營業中 · 打烊時間：02:00 顯示本週營業時間 這個商家在 7 週前確認過\":\n        - img \"5 星級、17,134 則評論\": \"5\"\n        - img \"4 星級、1,897 則評論\": \"4\"\n        - img \"3 星級、634 則評論\": \"3\"\n        - img \"2 星級、267 則評論\": \"2\"\n        - img \"1 星級、483 則評論\": \"1\"\n    - img \"4.7 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJJ6o8Qtg9aTQRdPMUo5sVQYY",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:25:08.044Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJJ6o8Qtg9aTQRdPMUo5sVQYY",
+      "resolved_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJJ6o8Qtg9aTQRdPMUo5sVQYY",
+      "match": true,
+      "name_match": true,
+      "address_match": true
+    },
+    "place_id_validation_evidence": "    - heading \"茶六燒肉堂 公益店\" [level=1]: 茶六燒肉堂 公益店\n    - img \"4.7 顆星\"\n    - img \"20,415 則評論\": (20,415)\n      - 'button \"地址: 403臺中市西區公平里公益路268號\"':\n      - button \"營業時間 營業中 · 打烊時間：02:00 顯示本週營業時間 這個商家在 7 週前確認過\":\n        - img \"5 星級、17,134 則評論\": \"5\"\n        - img \"4 星級、1,897 則評論\": \"4\"\n        - img \"3 星級、634 則評論\": \"3\"\n        - img \"2 星級、267 則評論\": \"2\"\n        - img \"1 星級、483 則評論\": \"1\"\n    - img \"4.7 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":"
+  },
+  {
+    "district": "公益路商圈",
+    "original_name": "鼎王麻辣鍋・台中公益店",
+    "place_id": "ChIJuQq4-JY9aTQRZLpsXEkkIdE",
+    "google_checked_at": "2026-09-03T15:48:43+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E9%BC%8E%E7%8E%8B%E9%BA%BB%E8%BE%A3%E9%8D%8B(%E5%8F%B0%E4%B8%AD%E5%85%AC%E7%9B%8A%E5%BA%97)/@24.1510378,120.6486122,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d96f8b80ab9:0xd12124495c6cba64!8m2!3d24.1510378!4d120.6511871!16s%2Fg%2F1tfrk238?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"鼎王麻辣鍋(台中公益店)\" [level=1]: 鼎王麻辣鍋(台中公益店)\n    - img \"4.2 顆星\"\n    - img \"4,050 則評論\": (4,050)\n      - 'button \"地址: 408臺中市南屯區大業里公益路二段42號\"':\n      - button \"營業時間 營業中 · 打烊時間：04:00 顯示本週營業時間\":\n        - img \"5 星級、1,996 則評論\": \"5\"\n        - img \"4 星級、1,232 則評論\": \"4\"\n        - img \"3 星級、497 則評論\": \"3\"\n        - img \"2 星級、115 則評論\": \"2\"\n        - img \"1 星級、210 則評論\": \"1\"\n    - img \"4.2 顆星\"\n      - img \"4 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJuQq4-JY9aTQRZLpsXEkkIdE",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:25:08.642Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJuQq4-JY9aTQRZLpsXEkkIdE",
+      "resolved_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJuQq4-JY9aTQRZLpsXEkkIdE",
+      "match": true,
+      "name_match": true,
+      "address_match": true
+    },
+    "place_id_validation_evidence": "    - heading \"鼎王麻辣鍋(台中公益店)\" [level=1]: 鼎王麻辣鍋(台中公益店)\n    - img \"4.2 顆星\"\n    - img \"4,050 則評論\": (4,050)\n      - 'button \"地址: 408臺中市南屯區大業里公益路二段42號\"':\n      - button \"營業時間 營業中 · 打烊時間：04:00 顯示本週營業時間\":\n        - img \"5 星級、1,996 則評論\": \"5\"\n        - img \"4 星級、1,232 則評論\": \"4\"\n        - img \"3 星級、497 則評論\": \"3\"\n        - img \"2 星級、115 則評論\": \"2\"\n        - img \"1 星級、210 則評論\": \"1\"\n    - img \"4.2 顆星\"\n      - img \"4 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":"
+  },
+  {
+    "district": "公益路商圈",
+    "original_name": "無老鍋・台中公益店",
+    "place_id": "ChIJzd0pX5Y9aTQRyHvJVjVVUjM",
+    "google_checked_at": "2026-09-03T15:49:03+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E7%84%A1%E8%80%81%E9%8D%8B(%E5%8F%B0%E4%B8%AD%E5%85%AC%E7%9B%8A%E5%BA%97)/@24.1510406,120.6479412,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d965f29ddcd:0x3352553556c97bc8!8m2!3d24.1510406!4d120.6505161!16s%2Fg%2F1tjdcy94?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"無老鍋(台中公益店)\" [level=1]: 無老鍋(台中公益店)\n    - img \"4.4 顆星\"\n    - img \"4,594 則評論\": (4,594)\n      - 'button \"地址: 408臺中市南屯區大業里公益路二段74號\"':\n      - button \"營業時間 營業中 · 打烊時間：04:00 顯示本週營業時間\":\n        - img \"5 星級、2,972 則評論\": \"5\"\n        - img \"4 星級、962 則評論\": \"4\"\n        - img \"3 星級、354 則評論\": \"3\"\n        - img \"2 星級、87 則評論\": \"2\"\n        - img \"1 星級、219 則評論\": \"1\"\n    - img \"4.4 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJzd0pX5Y9aTQRyHvJVjVVUjM",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:25:10.401Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJzd0pX5Y9aTQRyHvJVjVVUjM",
+      "resolved_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJzd0pX5Y9aTQRyHvJVjVVUjM",
+      "match": true,
+      "name_match": true,
+      "address_match": true
+    },
+    "place_id_validation_evidence": "    - heading \"無老鍋(台中公益店)\" [level=1]: 無老鍋(台中公益店)\n    - img \"4.4 顆星\"\n    - img \"4,594 則評論\": (4,594)\n      - 'button \"地址: 408臺中市南屯區大業里公益路二段74號\"':\n      - button \"營業時間 營業中 · 打烊時間：04:00 顯示本週營業時間\":\n        - img \"5 星級、2,972 則評論\": \"5\"\n        - img \"4 星級、962 則評論\": \"4\"\n        - img \"3 星級、354 則評論\": \"3\"\n        - img \"2 星級、87 則評論\": \"2\"\n        - img \"1 星級、219 則評論\": \"1\"\n    - img \"4.4 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":"
+  },
+  {
+    "district": "公益路商圈",
+    "original_name": "俺達の肉屋",
+    "place_id": "ChIJnUv6vJk9aTQRtCvxAB4mU_Y",
+    "google_checked_at": "2026-09-03T15:49:03+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E4%BF%BA%E9%81%94%E3%81%AE%E8%82%89%E5%B1%8B+%E6%97%A5%E6%9C%AC%E5%92%8C%E7%89%9B%E7%87%92%E8%82%89%E5%BA%97/@24.1510094,120.6538416,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d99bcfa4b9d:0xf653261e00f12bb4!8m2!3d24.1510094!4d120.6564165!16s%2Fg%2F11c0pxh6wr?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"俺達の肉屋 日本和牛燒肉店\" [level=1]: 俺達の肉屋 日本和牛燒肉店\n    - img \"4.5 顆星\"\n    - img \"1,754 則評論\": (1,754)\n      - 'button \"地址: 403臺中市西區公平里公益路194-1號\"':\n      - button \"營業時間 已打烊 · 開始營業時間：17:00 顯示本週營業時間\":\n        - img \"5 星級、1,336 則評論\": \"5\"\n        - img \"4 星級、223 則評論\": \"4\"\n        - img \"3 星級、64 則評論\": \"3\"\n        - img \"2 星級、42 則評論\": \"2\"\n        - img \"1 星級、89 則評論\": \"1\"\n    - img \"4.5 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJnUv6vJk9aTQRtCvxAB4mU_Y",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:25:11.026Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJnUv6vJk9aTQRtCvxAB4mU_Y",
+      "resolved_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJnUv6vJk9aTQRtCvxAB4mU_Y",
+      "match": true,
+      "name_match": true,
+      "address_match": true
+    },
+    "place_id_validation_evidence": "    - heading \"俺達の肉屋 日本和牛燒肉店\" [level=1]: 俺達の肉屋 日本和牛燒肉店\n    - img \"4.5 顆星\"\n    - img \"1,754 則評論\": (1,754)\n      - 'button \"地址: 403臺中市西區公平里公益路194-1號\"':\n      - button \"營業時間 已打烊 · 開始營業時間：17:00 顯示本週營業時間\":\n        - img \"5 星級、1,336 則評論\": \"5\"\n        - img \"4 星級、223 則評論\": \"4\"\n        - img \"3 星級、64 則評論\": \"3\"\n        - img \"2 星級、42 則評論\": \"2\"\n        - img \"1 星級、89 則評論\": \"1\"\n    - img \"4.5 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":"
+  },
+  {
+    "district": "公益路商圈",
+    "original_name": "元手壽司・公益店",
+    "place_id": "ChIJWSHplpc9aTQROgmIgGRwQzI",
+    "google_checked_at": "2026-09-03T15:49:22+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E5%85%83%E6%89%8B%E5%85%AC%E7%9B%8A/@24.1497681,120.6505649,17z/data=!3m2!4b1!5s0x34693d9797c84683:0xadfc617f8537b3f3!4m6!3m5!1s0x34693d9796e92159:0x324370648088093a!8m2!3d24.1497681!4d120.6531398!16s%2Fg%2F12hsr75pv?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"元手公益\" [level=1]: 元手公益\n    - img \"4.7 顆星\"\n    - img \"2,127 則評論\": (2,127)\n    - generic: 永久歇業\n      - 'button \"地址: 403臺中市西區公正里東興路三段152號\"':\n      - button \"通知 永久歇業 顯示詳細資料\":\n        - generic: 永久歇業\n        - img \"5 星級、1,688 則評論\": \"5\"\n        - img \"4 星級、262 則評論\": \"4\"\n        - img \"3 星級、101 則評論\": \"3\"\n        - img \"2 星級、37 則評論\": \"2\"\n        - img \"1 星級、39 則評論\": \"1\"\n    - img \"4.7 顆星\"\n      - img \"4 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJWSHplpc9aTQROgmIgGRwQzI",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:48:17.746Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJWSHplpc9aTQROgmIgGRwQzI",
+      "resolved_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJWSHplpc9aTQROgmIgGRwQzI",
+      "name_match": true,
+      "address_match": true,
+      "match": true
+    },
+    "place_id_validation_evidence": "    - heading \"元手公益\" [level=1]: 元手公益\n    - img \"4.7 顆星\"\n    - img \"2,127 則評論\": (2,127)\n    - generic: 永久歇業\n      - 'button \"地址: 403臺中市西區公正里東興路三段152號\"':\n      - button \"通知 永久歇業 顯示詳細資料\":\n        - generic: 永久歇業\n        - img \"5 星級、1,688 則評論\": \"5\"\n        - img \"4 星級、262 則評論\": \"4\"\n        - img \"3 星級、101 則評論\": \"3\"\n        - img \"2 星級、37 則評論\": \"2\"\n        - img \"1 星級、39 則評論\": \"1\"\n    - img \"4.7 顆星\"\n      - img \"4 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":"
+  },
+  {
+    "district": "公益路商圈",
+    "original_name": "一笈壽司",
+    "place_id": "ChIJb2HzTI49aTQRE75UtLOPrEA",
+    "google_checked_at": "2026-09-03T15:49:22+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E4%B8%80%E7%AC%88%E5%A3%BD%E5%8F%B8/@24.1505775,120.6492042,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d8e4cf3616f:0x40ac8fb3b454be13!8m2!3d24.1505775!4d120.6517791!16s%2Fg%2F11ghs7h8_8?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"一笈壽司\" [level=1]: 一笈壽司\n    - img \"4.2 顆星\"\n    - img \"8,009 則評論\": (8,009)\n      - 'button \"地址: 408臺中市南屯區大業里公益路二段25號\"':\n      - button \"營業時間 營業中 · 打烊時間：23:00 顯示本週營業時間\":\n        - img \"5 星級、4,537 則評論\": \"5\"\n        - img \"4 星級、1,777 則評論\": \"4\"\n        - img \"3 星級、792 則評論\": \"3\"\n        - img \"2 星級、357 則評論\": \"2\"\n        - img \"1 星級、546 則評論\": \"1\"\n    - img \"4.2 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"3 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJb2HzTI49aTQRE75UtLOPrEA",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:48:18.343Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJb2HzTI49aTQRE75UtLOPrEA",
+      "resolved_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJb2HzTI49aTQRE75UtLOPrEA",
+      "name_match": true,
+      "address_match": true,
+      "match": true
+    },
+    "place_id_validation_evidence": "    - heading \"一笈壽司\" [level=1]: 一笈壽司\n    - img \"4.2 顆星\"\n    - img \"8,009 則評論\": (8,009)\n      - 'button \"地址: 408臺中市南屯區大業里公益路二段25號\"':\n      - button \"營業時間 營業中 · 打烊時間：23:00 顯示本週營業時間\":\n        - img \"5 星級、4,537 則評論\": \"5\"\n        - img \"4 星級、1,777 則評論\": \"4\"\n        - img \"3 星級、792 則評論\": \"3\"\n        - img \"2 星級、357 則評論\": \"2\"\n        - img \"1 星級、546 則評論\": \"1\"\n    - img \"4.2 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"3 顆星\":"
+  },
+  {
+    "district": "公益路商圈",
+    "original_name": "享鴨・台中公益店",
+    "place_id": "ChIJxypaa-I9aTQRXpXwdg2xoPA",
+    "google_checked_at": "2026-09-03T15:49:50+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E4%BA%AB%E9%B4%A8%E5%8F%B0%E4%B8%AD%E5%85%AC%E7%9B%8A%E5%BA%97/@24.1512704,120.6409453,17z/data=!3m1!4b1!4m6!3m5!1s0x34693de26b5a2ac7:0xf0a0b10d76f0955e!8m2!3d24.1512704!4d120.6435202!16s%2Fg%2F11lgqfj_lp?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"享鴨台中公益店\" [level=1]: 享鴨台中公益店\n    - img \"4.8 顆星\"\n    - img \"20,867 則評論\": (20,867)\n      - 'button \"地址: 408臺中市南屯區溝墘里公益路二段252號\"':\n      - button \"營業時間 已打烊 · 開始營業時間：17:30 顯示本週營業時間 這個商家在 6 週前確認過\":\n        - img \"5 星級、18,598 則評論\": \"5\"\n        - img \"4 星級、1,373 則評論\": \"4\"\n        - img \"3 星級、418 則評論\": \"3\"\n        - img \"2 星級、165 則評論\": \"2\"\n        - img \"1 星級、313 則評論\": \"1\"\n    - img \"4.8 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"4 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJxypaa-I9aTQRXpXwdg2xoPA",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:48:19.954Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJxypaa-I9aTQRXpXwdg2xoPA",
+      "resolved_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJxypaa-I9aTQRXpXwdg2xoPA",
+      "name_match": true,
+      "address_match": true,
+      "match": true
+    },
+    "place_id_validation_evidence": "    - heading \"享鴨台中公益店\" [level=1]: 享鴨台中公益店\n    - img \"4.8 顆星\"\n    - img \"20,868 則評論\": (20,868)\n      - 'button \"地址: 408臺中市南屯區溝墘里公益路二段252號\"':\n      - button \"營業時間 已打烊 · 開始營業時間：17:30 顯示本週營業時間 這個商家在 6 週前確認過\":\n        - img \"5 星級、18,599 則評論\": \"5\"\n        - img \"4 星級、1,373 則評論\": \"4\"\n        - img \"3 星級、418 則評論\": \"3\"\n        - img \"2 星級、165 則評論\": \"2\"\n        - img \"1 星級、313 則評論\": \"1\"\n    - img \"4.8 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"4 顆星\":"
+  },
+  {
+    "district": "公益路商圈",
+    "original_name": "傑克兄弟牛排館・台中公益店",
+    "place_id": "ChIJ8UhrSZU9aTQROScVBtpYMrE",
+    "google_checked_at": "2026-09-03T15:49:50+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E5%82%91%E5%85%8B%E5%85%84%E5%BC%9F%E7%89%9B%E6%8E%92%E9%A4%A8+%E8%87%BA%E4%B8%AD%E5%85%AC%E7%9B%8A%E5%BA%97/@24.1512502,120.6406779,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d95496b48f1:0xb13258da06152739!8m2!3d24.1512502!4d120.6432528!16s%2Fg%2F11fx8vbl1z?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"傑克兄弟牛排館 臺中公益店\" [level=1]: 傑克兄弟牛排館 臺中公益店\n    - img \"4.2 顆星\"\n    - img \"2,159 則評論\": (2,159)\n      - 'button \"地址: 408臺中市南屯區溝墘里公益路二段256號\"':\n      - button \"營業時間 已打烊 · 開始營業時間：17:00 顯示本週營業時間 這個商家在 11 週前確認過\":\n        - img \"5 星級、1,217 則評論\": \"5\"\n        - img \"4 星級、533 則評論\": \"4\"\n        - img \"3 星級、199 則評論\": \"3\"\n        - img \"2 星級、79 則評論\": \"2\"\n        - img \"1 星級、131 則評論\": \"1\"\n    - img \"4.2 顆星\"\n      - img \"4 顆星\":\n      - img \"3 顆星\":\n      - img \"3 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJ8UhrSZU9aTQROScVBtpYMrE",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:48:20.657Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJ8UhrSZU9aTQROScVBtpYMrE",
+      "resolved_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJ8UhrSZU9aTQROScVBtpYMrE",
+      "name_match": true,
+      "address_match": true,
+      "match": true
+    },
+    "place_id_validation_evidence": "    - heading \"傑克兄弟牛排館 臺中公益店\" [level=1]: 傑克兄弟牛排館 臺中公益店\n    - img \"4.2 顆星\"\n    - img \"2,159 則評論\": (2,159)\n      - 'button \"地址: 408臺中市南屯區溝墘里公益路二段256號\"':\n      - button \"營業時間 即將開始營業 · 17:00 顯示本週營業時間 這個商家在 11 週前確認過\":\n        - img \"5 星級、1,217 則評論\": \"5\"\n        - img \"4 星級、533 則評論\": \"4\"\n        - img \"3 星級、199 則評論\": \"3\"\n        - img \"2 星級、79 則評論\": \"2\"\n        - img \"1 星級、131 則評論\": \"1\"\n    - img \"4.2 顆星\"\n      - img \"4 顆星\":\n      - img \"3 顆星\":\n      - img \"3 顆星\":"
+  },
+  {
+    "district": "公益路商圈",
+    "original_name": "滬舍餘味",
+    "place_id": "ChIJ9U2YcsI9aTQR7fBVMRKGF0k",
+    "google_checked_at": "2026-09-03T15:50:06+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E6%BB%AC%E8%88%8D%E9%A4%98%E5%91%B3/@24.1511526,120.6331632,17z/data=!3m1!4b1!4m6!3m5!1s0x34693dc272984df5:0x491786123155f0ed!8m2!3d24.1511526!4d120.6357381!16s%2Fg%2F1v5fpn30?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"滬舍餘味\" [level=1]: 滬舍餘味\n    - img \"4.1 顆星\"\n    - img \"3,184 則評論\": (3,184)\n      - 'button \"地址: 408臺中市南屯區三和里公益路二段537號\"':\n      - button \"營業時間 營業中 · 打烊時間：20:00 顯示本週營業時間\":\n        - img \"5 星級、1,469 則評論\": \"5\"\n        - img \"4 星級、1,011 則評論\": \"4\"\n        - img \"3 星級、409 則評論\": \"3\"\n        - img \"2 星級、150 則評論\": \"2\"\n        - img \"1 星級、145 則評論\": \"1\"\n    - img \"4.1 顆星\"\n      - img \"5 顆星\":\n      - img \"3 顆星\":\n      - img \"4 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJ9U2YcsI9aTQR7fBVMRKGF0k",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:48:22.289Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJ9U2YcsI9aTQR7fBVMRKGF0k",
+      "resolved_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJ9U2YcsI9aTQR7fBVMRKGF0k",
+      "name_match": true,
+      "address_match": true,
+      "match": true
+    },
+    "place_id_validation_evidence": "    - heading \"滬舍餘味\" [level=1]: 滬舍餘味\n    - img \"4.1 顆星\"\n    - img \"3,184 則評論\": (3,184)\n      - 'button \"地址: 408臺中市南屯區三和里公益路二段537號\"':\n      - button \"營業時間 營業中 · 打烊時間：20:00 顯示本週營業時間\":\n        - img \"5 星級、1,469 則評論\": \"5\"\n        - img \"4 星級、1,011 則評論\": \"4\"\n        - img \"3 星級、409 則評論\": \"3\"\n        - img \"2 星級、150 則評論\": \"2\"\n        - img \"1 星級、145 則評論\": \"1\"\n    - img \"4.1 顆星\"\n      - img \"5 顆星\":\n      - img \"3 顆星\":\n      - img \"4 顆星\":"
+  },
+  {
+    "district": "草悟道商圈",
+    "original_name": "誠品書店・勤美綠園道店",
+    "place_id": "ChIJH4Yn2J09aTQR6zgTkm50h2s",
+    "google_checked_at": "2026-09-03T15:50:40+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E8%AA%A0%E5%93%81%E7%94%9F%E6%B4%BB%E5%9C%92%E9%81%93%E5%BA%97/@24.1512979,120.6613904,17z/data=!4m10!1m2!2m1!1z6Kqg5ZOB5pu45bqXIOWLpOe-jue2oOWckumBkyDlhaznm4rot682OOiZnzPmqJM!3m6!1s0x34693d9dd827861f:0x6b87746e921338eb!8m2!3d24.1512125!4d120.6639032!15sCi_oqqDlk4Hmm7jlupcg5Yuk576O57ag5ZyS6YGTIOWFrOebiui3rzY46JmfM-aokyIDiAEBWjwiOuiqoCDlk4Eg5pu45bqXIOWLpCDnvo4g57agIOWckiDpgZMg5YWs55uKIOi3ryA2OCDomZ8gMyDmqJOSAQpib29rX3N0b3JlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJNZUhBMmNEUlJSUkFC4AEA-gEECAAQCw!16s%2Fg%2F1vg_9m2y?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"誠品生活園道店\" [level=1]: 誠品生活園道店\n    - img \"4.5 顆星\"\n    - img \"13,268 則評論\": (13,268)\n      - 'button \"地址: 403臺中市西區民龍里公益路68號3樓\"':\n      - button \"營業時間 營業中 · 打烊時間：21:30 顯示本週營業時間\":\n        - img \"5 星級、8,410 則評論\": \"5\"\n        - img \"4 星級、3,755 則評論\": \"4\"\n        - img \"3 星級、832 則評論\": \"3\"\n        - img \"2 星級、97 則評論\": \"2\"\n        - img \"1 星級、174 則評論\": \"1\"\n    - img \"4.5 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/place/%E8%AA%A0%E5%93%81%E7%94%9F%E6%B4%BB%E5%9C%92%E9%81%93%E5%BA%97/data=!4m7!3m6!1s0x34693d9dd827861f:0x6b87746e921338eb!8m2!3d24.1512125!4d120.6639032!16s%2Fg%2F1vg_9m2y!19sChIJH4Yn2J09aTQR6zgTkm50h2s?authuser=0&hl=zh-TW&g_ep=EgoyMDI2MDgzMS4wIJJjKgBIAVAD&rclk=1",
+    "place_id_validation": {},
+    "place_id_validation_evidence": null
+  },
+  {
+    "district": "草悟道商圈",
+    "original_name": "茉莉二手書店・台中店",
+    "place_id": "ChIJIWTVhJ49aTQRwGo-yxZfHFQ",
+    "google_checked_at": "2026-09-03T15:50:25+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E8%8C%89%E8%8E%89%E4%BA%8C%E6%89%8B%E6%9B%B8%E5%BA%97/@24.1507359,120.6600071,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d9e84d56421:0x541c5f16cb3e6ac0!8m2!3d24.1507359!4d120.662582!16s%2Fg%2F1tj55j8b?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"茉莉二手書店\" [level=1]: 茉莉二手書店\n    - img \"4.6 顆星\"\n    - img \"4,864 則評論\": (4,864)\n      - 'button \"地址: 403臺中市西區中興里公益路161號B1\"':\n      - button \"營業時間 營業中 · 打烊時間：21:00 顯示本週營業時間\":\n        - img \"5 星級、3,474 則評論\": \"5\"\n        - img \"4 星級、1,101 則評論\": \"4\"\n        - img \"3 星級、193 則評論\": \"3\"\n        - img \"2 星級、39 則評論\": \"2\"\n        - img \"1 星級、57 則評論\": \"1\"\n    - img \"4.6 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJIWTVhJ49aTQRwGo-yxZfHFQ",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:48:22.848Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJIWTVhJ49aTQRwGo-yxZfHFQ",
+      "resolved_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJIWTVhJ49aTQRwGo-yxZfHFQ",
+      "name_match": true,
+      "address_match": true,
+      "match": true
+    },
+    "place_id_validation_evidence": "    - heading \"茉莉二手書店\" [level=1]: 茉莉二手書店\n    - img \"4.6 顆星\"\n    - img \"4,864 則評論\": (4,864)\n      - 'button \"地址: 403臺中市西區中興里公益路161號B1\"':\n      - button \"營業時間 營業中 · 打烊時間：21:00 顯示本週營業時間\":\n        - img \"5 星級、3,474 則評論\": \"5\"\n        - img \"4 星級、1,101 則評論\": \"4\"\n        - img \"3 星級、193 則評論\": \"3\"\n        - img \"2 星級、39 則評論\": \"2\"\n        - img \"1 星級、57 則評論\": \"1\"\n    - img \"4.6 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":"
+  },
+  {
+    "district": "草悟道商圈",
+    "original_name": "小日子商号・審計店",
+    "place_id": "ChIJXfm2lU89aTQRUpgofvCt1tU",
+    "google_checked_at": "2026-09-03T16:06:46+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E5%B0%8F%E6%97%A5%E5%AD%90%E5%95%86%E8%99%9F+%E5%AF%A9%E8%A8%88%E5%BA%97/@24.1446817,120.660419,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d4f95b6f95d:0xd5d6adf07e289852!8m2!3d24.1446817!4d120.6629939!16s%2Fg%2F11j61d3ym9?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"小日子商號 審計店\" [level=1]: 小日子商號 審計店\n    - img \"4.2 顆星\"\n    - img \"32 則評論\": (32)\n    - generic: 永久歇業\n      - 'button \"地址: 40358臺中市西區民生路368巷2弄10號1樓\"':\n      - button \"通知 永久歇業 顯示詳細資料\":\n        - generic: 永久歇業\n        - img \"5 星級、23 則評論\": \"5\"\n        - img \"4 星級、3 則評論\": \"4\"\n        - img \"3 星級、0 則評論\": \"3\"\n        - img \"2 星級、0 則評論\": \"2\"\n        - img \"1 星級、6 則評論\": \"1\"\n    - img \"4.2 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJXfm2lU89aTQRUpgofvCt1tU",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:48:24.176Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJXfm2lU89aTQRUpgofvCt1tU",
+      "resolved_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJXfm2lU89aTQRUpgofvCt1tU",
+      "name_match": true,
+      "address_match": true,
+      "match": true
+    },
+    "place_id_validation_evidence": "    - heading \"小日子商號 審計店\" [level=1]: 小日子商號 審計店\n    - img \"4.2 顆星\"\n    - img \"32 則評論\": (32)\n    - generic: 永久歇業\n      - 'button \"地址: 40358臺中市西區民生路368巷2弄10號1樓\"':\n      - button \"通知 永久歇業 顯示詳細資料\":\n        - generic: 永久歇業\n        - img \"5 星級、23 則評論\": \"5\"\n        - img \"4 星級、3 則評論\": \"4\"\n        - img \"3 星級、0 則評論\": \"3\"\n        - img \"2 星級、0 則評論\": \"2\"\n        - img \"1 星級、6 則評論\": \"1\"\n    - img \"4.2 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":"
+  },
+  {
+    "district": "草悟道商圈",
+    "original_name": "成真咖啡・台中審計店",
+    "place_id": "ChIJCUReNbI9aTQRbyOqNGBUyyY",
+    "google_checked_at": "2026-09-03T16:06:46+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E6%88%90%E7%9C%9F%E5%92%96%E5%95%A1Cometrue+%E5%8F%B0%E4%B8%AD%E5%AF%A9%E8%A8%88%E5%BA%97(%E5%89%B5%E5%A7%8B%E5%BA%97%EF%BC%89/@24.1444404,120.6597445,17z/data=!3m1!4b1!4m6!3m5!1s0x34693db2355e4409:0x26cb546034aa236f!8m2!3d24.1444404!4d120.6623194!16s%2Fg%2F11dxk_80h8?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"成真咖啡Cometrue 台中審計店(創始店）\" [level=1]: 成真咖啡Cometrue 台中審計店(創始店）\n    - img \"4.4 顆星\"\n    - img \"2,957 則評論\": (2,957)\n      - 'button \"地址: 403臺中市西區民生路370號\"':\n      - button \"營業時間 營業中 · 打烊時間：20:00 顯示本週營業時間\":\n        - img \"5 星級、1,934 則評論\": \"5\"\n        - img \"4 星級、661 則評論\": \"4\"\n        - img \"3 星級、208 則評論\": \"3\"\n        - img \"2 星級、65 則評論\": \"2\"\n        - img \"1 星級、89 則評論\": \"1\"\n    - img \"4.4 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJCUReNbI9aTQRbyOqNGBUyyY",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:48:24.903Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJCUReNbI9aTQRbyOqNGBUyyY",
+      "resolved_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJCUReNbI9aTQRbyOqNGBUyyY",
+      "name_match": true,
+      "address_match": true,
+      "match": true
+    },
+    "place_id_validation_evidence": "    - heading \"成真咖啡Cometrue 台中審計店(創始店）\" [level=1]: 成真咖啡Cometrue 台中審計店(創始店）\n    - img \"4.4 顆星\"\n    - img \"2,957 則評論\": (2,957)\n      - 'button \"地址: 403臺中市西區民生路370號\"':\n      - button \"營業時間 營業中 · 打烊時間：20:00 顯示本週營業時間\":\n        - img \"5 星級、1,934 則評論\": \"5\"\n        - img \"4 星級、661 則評論\": \"4\"\n        - img \"3 星級、208 則評論\": \"3\"\n        - img \"2 星級、65 則評論\": \"2\"\n        - img \"1 星級、89 則評論\": \"1\"\n    - img \"4.4 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":"
+  },
+  {
+    "district": "草悟道商圈",
+    "original_name": "旅禾泡芙之家・美村旗艦店",
+    "place_id": "ChIJR22T9-M9aTQRKh84Xzi-S3A",
+    "google_checked_at": "2026-09-03T16:07:09+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E6%97%85%E7%A6%BE%E7%83%98%E7%84%99+%E7%BE%8E%E6%9D%91%E6%97%97%E8%89%A6%E5%BA%97/@24.1456781,120.6593323,17z/data=!3m1!4b1!4m6!3m5!1s0x34693de3f7936d47:0x704bbe385f381f2a!8m2!3d24.1456781!4d120.6619072!16s%2Fg%2F11j0w501fp?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"旅禾烘焙 美村旗艦店\" [level=1]: 旅禾烘焙 美村旗艦店\n    - img \"4.5 顆星\"\n    - img \"2,670 則評論\": (2,670)\n      - 'button \"地址: 40358臺中市西區昇平里美村路一段343號\"':\n      - button \"營業時間 營業中 · 打烊時間：21:30 顯示本週營業時間\":\n        - img \"5 星級、1,990 則評論\": \"5\"\n        - img \"4 星級、381 則評論\": \"4\"\n        - img \"3 星級、144 則評論\": \"3\"\n        - img \"2 星級、41 則評論\": \"2\"\n        - img \"1 星級、114 則評論\": \"1\"\n    - img \"4.5 顆星\"\n      - img \"4 顆星\":\n      - img \"3 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJR22T9-M9aTQRKh84Xzi-S3A",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:48:35.970Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJR22T9-M9aTQRKh84Xzi-S3A",
+      "resolved_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJR22T9-M9aTQRKh84Xzi-S3A",
+      "name_match": true,
+      "address_match": true,
+      "match": true
+    },
+    "place_id_validation_evidence": "    - heading \"旅禾烘焙 美村旗艦店\" [level=1]: 旅禾烘焙 美村旗艦店\n    - img \"4.5 顆星\"\n    - img \"2,670 則評論\": (2,670)\n      - 'button \"地址: 40358臺中市西區昇平里美村路一段343號\"':\n      - button \"營業時間 營業中 · 打烊時間：21:30 顯示本週營業時間\":\n        - img \"5 星級、1,990 則評論\": \"5\"\n        - img \"4 星級、381 則評論\": \"4\"\n        - img \"3 星級、144 則評論\": \"3\"\n        - img \"2 星級、41 則評論\": \"2\"\n        - img \"1 星級、114 則評論\": \"1\"\n    - img \"4.5 顆星\"\n      - img \"4 顆星\":\n      - img \"3 顆星\":\n      - img \"5 顆星\":"
+  },
+  {
+    "district": "草悟道商圈",
+    "original_name": "美軍豆乳冰",
+    "place_id": "ChIJw4b6vaE9aTQRmkMk98MUnaA",
+    "google_checked_at": "2026-09-03T16:07:09+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E7%BE%8E%E8%BB%8D%E8%B1%86%E4%B9%B3%E5%86%B0/@24.1444241,120.6587555,17z/data=!3m1!4b1!4m6!3m5!1s0x34693da1bdfa86c3:0xa09d14c3f724439a!8m2!3d24.1444241!4d120.6613304!16s%2Fg%2F11btvl9n9t?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"美軍豆乳冰\" [level=1]: 美軍豆乳冰\n    - img \"4.2 顆星\"\n    - img \"1,327 則評論\": (1,327)\n      - 'button \"地址: 403臺中市西區昇平里民生路380-2號\"':\n      - button \"營業時間 營業中 · 打烊時間：21:00 顯示本週營業時間\":\n        - img \"5 星級、652 則評論\": \"5\"\n        - img \"4 星級、396 則評論\": \"4\"\n        - img \"3 星級、167 則評論\": \"3\"\n        - img \"2 星級、54 則評論\": \"2\"\n        - img \"1 星級、58 則評論\": \"1\"\n    - img \"4.2 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJw4b6vaE9aTQRmkMk98MUnaA",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:48:36.426Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJw4b6vaE9aTQRmkMk98MUnaA",
+      "resolved_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJw4b6vaE9aTQRmkMk98MUnaA",
+      "name_match": true,
+      "address_match": true,
+      "match": true
+    },
+    "place_id_validation_evidence": "    - heading \"美軍豆乳冰\" [level=1]: 美軍豆乳冰\n    - img \"4.2 顆星\"\n    - img \"1,327 則評論\": (1,327)\n      - 'button \"地址: 403臺中市西區昇平里民生路380-2號\"':\n      - button \"營業時間 營業中 · 打烊時間：21:00 顯示本週營業時間\":\n        - img \"5 星級、652 則評論\": \"5\"\n        - img \"4 星級、396 則評論\": \"4\"\n        - img \"3 星級、167 則評論\": \"3\"\n        - img \"2 星級、54 則評論\": \"2\"\n        - img \"1 星級、58 則評論\": \"1\"\n    - img \"4.2 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":"
+  },
+  {
+    "district": "草悟道商圈",
+    "original_name": "美村點頭冰",
+    "place_id": "ChIJo8n9wJ49aTQRlLh1gGOeYnk",
+    "google_checked_at": "2026-09-03T16:07:34+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E7%BE%8E%E6%9D%91%E9%BB%9E%E9%A0%AD%E5%86%B0/@24.149938,120.6590031,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d9ec0fdc9a3:0x79629e638075b894!8m2!3d24.149938!4d120.661578!16s%2Fg%2F1td5jfcn?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"美村點頭冰\" [level=1]: 美村點頭冰\n    - img \"4.0 顆星\"\n    - img \"2,281 則評論\": (2,281)\n      - 'button \"地址: 403臺中市西區中興里美村路一段176號\"':\n      - button \"營業時間 營業中 · 打烊時間：22:00 顯示本週營業時間\":\n        - img \"5 星級、937 則評論\": \"5\"\n        - img \"4 星級、751 則評論\": \"4\"\n        - img \"3 星級、384 則評論\": \"3\"\n        - img \"2 星級、94 則評論\": \"2\"\n        - img \"1 星級、115 則評論\": \"1\"\n    - img \"4.0 顆星\"\n      - img \"5 顆星\":\n      - img \"4 顆星\":\n      - img \"2 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJo8n9wJ49aTQRlLh1gGOeYnk",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:48:37.833Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJo8n9wJ49aTQRlLh1gGOeYnk",
+      "resolved_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJo8n9wJ49aTQRlLh1gGOeYnk",
+      "name_match": true,
+      "address_match": true,
+      "match": true
+    },
+    "place_id_validation_evidence": "    - heading \"美村點頭冰\" [level=1]: 美村點頭冰\n    - img \"4.0 顆星\"\n    - img \"2,281 則評論\": (2,281)\n      - 'button \"地址: 403臺中市西區中興里美村路一段176號\"':\n      - button \"營業時間 營業中 · 打烊時間：22:00 顯示本週營業時間\":\n        - img \"5 星級、937 則評論\": \"5\"\n        - img \"4 星級、751 則評論\": \"4\"\n        - img \"3 星級、384 則評論\": \"3\"\n        - img \"2 星級、94 則評論\": \"2\"\n        - img \"1 星級、115 則評論\": \"1\"\n    - img \"4.0 顆星\"\n      - img \"5 顆星\":\n      - img \"4 顆星\":\n      - img \"2 顆星\":"
+  },
+  {
+    "district": "草悟道商圈",
+    "original_name": "模範貝果",
+    "place_id": "ChIJ_-dqe3U9aTQR4Jy50r8M5cs",
+    "google_checked_at": "2026-09-03T16:07:34+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E6%A8%A1%E7%AF%84%E8%B2%9D%E6%9E%9CMOFAN+BAGELS/@24.1470826,120.6638832,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d757b6ae7ff:0xcbe50cbfd2b99ce0!8m2!3d24.1470826!4d120.6664581!16s%2Fg%2F1pzx04lsr?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"模範貝果MOFAN BAGELS\" [level=1]: 模範貝果MOFAN BAGELS\n    - img \"4.6 顆星\"\n    - img \"1,060 則評論\": (1,060)\n      - 'button \"地址: 403臺中市西區雙龍里模範街1巷1號\"':\n      - button \"營業時間 營業中 · 打烊時間：19:00 顯示本週營業時間\":\n        - img \"5 星級、818 則評論\": \"5\"\n        - img \"4 星級、149 則評論\": \"4\"\n        - img \"3 星級、49 則評論\": \"3\"\n        - img \"2 星級、23 則評論\": \"2\"\n        - img \"1 星級、21 則評論\": \"1\"\n    - img \"4.6 顆星\"\n      - img \"4 顆星\":\n      - img \"4 顆星\":\n      - img \"4 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJ_-dqe3U9aTQR4Jy50r8M5cs",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:48:38.020Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJ_-dqe3U9aTQR4Jy50r8M5cs",
+      "resolved_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJ_-dqe3U9aTQR4Jy50r8M5cs",
+      "name_match": true,
+      "address_match": true,
+      "match": true
+    },
+    "place_id_validation_evidence": "    - heading \"模範貝果MOFAN BAGELS\" [level=1]: 模範貝果MOFAN BAGELS\n    - img \"4.6 顆星\"\n    - img \"1,060 則評論\": (1,060)\n      - 'button \"地址: 403臺中市西區雙龍里模範街1巷1號\"':\n      - button \"營業時間 營業中 · 打烊時間：19:00 顯示本週營業時間\":\n        - img \"5 星級、818 則評論\": \"5\"\n        - img \"4 星級、149 則評論\": \"4\"\n        - img \"3 星級、49 則評論\": \"3\"\n        - img \"2 星級、23 則評論\": \"2\"\n        - img \"1 星級、21 則評論\": \"1\"\n    - img \"4.6 顆星\"\n      - img \"4 顆星\":\n      - img \"4 顆星\":\n      - img \"4 顆星\":"
+  },
+  {
+    "district": "草悟道商圈",
+    "original_name": "Haritts・台中店",
+    "place_id": "ChIJOZP7Up49aTQRcAe1TIgWYwg",
+    "google_checked_at": "2026-09-03T16:23:05+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/Haritts+Donuts+%26+Coffee/@24.1484807,120.6611169,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d9e52fb9339:0x86316884cb50770!8m2!3d24.1484807!4d120.6636918!16s%2Fg%2F1pzpx0rs0?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"Haritts Donuts & Coffee\" [level=1]: Haritts Donuts & Coffee\n    - img \"4.5 顆星\"\n    - img \"1,899 則評論\": (1,899)\n      - 'button \"地址: 403臺中市西區中興里中興街128巷6號\"':\n      - button \"營業時間 營業中 · 打烊時間：18:30 顯示本週營業時間\":\n        - img \"5 星級、1,316 則評論\": \"5\"\n        - img \"4 星級、402 則評論\": \"4\"\n        - img \"3 星級、100 則評論\": \"3\"\n        - img \"2 星級、25 則評論\": \"2\"\n        - img \"1 星級、56 則評論\": \"1\"\n    - img \"4.5 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJOZP7Up49aTQRcAe1TIgWYwg",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:48:39.559Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJOZP7Up49aTQRcAe1TIgWYwg",
+      "resolved_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJOZP7Up49aTQRcAe1TIgWYwg",
+      "name_match": true,
+      "address_match": true,
+      "match": true
+    },
+    "place_id_validation_evidence": "    - heading \"Haritts Donuts & Coffee\" [level=1]: Haritts Donuts & Coffee\n    - img \"4.5 顆星\"\n    - img \"1,899 則評論\": (1,899)\n      - 'button \"地址: 403臺中市西區中興里中興街128巷6號\"':\n      - button \"營業時間 營業中 · 打烊時間：18:30 顯示本週營業時間\":\n        - img \"5 星級、1,316 則評論\": \"5\"\n        - img \"4 星級、402 則評論\": \"4\"\n        - img \"3 星級、100 則評論\": \"3\"\n        - img \"2 星級、25 則評論\": \"2\"\n        - img \"1 星級、56 則評論\": \"1\"\n    - img \"4.5 顆星\"\n      - img \"5 顆星\":\n      - img \"5 顆星\":\n      - img \"5 顆星\":"
+  },
+  {
+    "district": "草悟道商圈",
+    "original_name": "春水堂・勤美誠品店",
+    "place_id": "ChIJVzXv3VM9aTQRPHXsUlb78Q8",
+    "google_checked_at": "2026-09-03T16:23:05+08:00",
+    "google_observed_url": "https://www.google.com/maps/place/%E6%98%A5%E6%B0%B4%E5%A0%82+%E5%8B%A4%E7%BE%8E%E8%AA%A0%E5%93%81%E5%BA%97/@24.15104,120.6612731,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d53ddef3557:0xff1fb5652ec753c!8m2!3d24.15104!4d120.663848!16s%2Fg%2F11nft30dss?entry=ttu&g_ep=EgoyMDI2MDgzMS4wIKXMDSoASAFQAw%3D%3D",
+    "business_evidence": "    - heading \"春水堂 勤美誠品店\" [level=1]: 春水堂 勤美誠品店\n    - img \"3.6 顆星\"\n    - img \"538 則評論\": (538)\n      - 'button \"地址: 403臺中市西區民龍里公益路68號B1樓\"':\n      - button \"營業時間 營業中 · 打烊時間：21:30 顯示本週營業時間\":\n        - img \"5 星級、215 則評論\": \"5\"\n        - img \"4 星級、136 則評論\": \"4\"\n        - img \"3 星級、55 則評論\": \"3\"\n        - img \"2 星級、22 則評論\": \"2\"\n        - img \"1 星級、110 則評論\": \"1\"\n    - img \"3.6 顆星\"\n      - img \"4 顆星\":\n      - img \"4 顆星\":\n      - img \"5 顆星\":",
+    "finder_evidence": null,
+    "place_id_source_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJVzXv3VM9aTQRPHXsUlb78Q8",
+    "place_id_validation": {
+      "checked_at": "2026-09-03T08:48:40.147Z",
+      "request_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJVzXv3VM9aTQRPHXsUlb78Q8",
+      "resolved_url": "https://www.google.com/maps/search/?api=1&query=0%2C0&query_place_id=ChIJVzXv3VM9aTQRPHXsUlb78Q8",
+      "name_match": true,
+      "address_match": true,
+      "match": true
+    },
+    "place_id_validation_evidence": "    - heading \"春水堂 勤美誠品店\" [level=1]: 春水堂 勤美誠品店\n    - img \"3.6 顆星\"\n    - img \"538 則評論\": (538)\n      - 'button \"地址: 403臺中市西區民龍里公益路68號B1樓\"':\n      - button \"營業時間 營業中 · 打烊時間：21:30 顯示本週營業時間\":\n        - img \"5 星級、215 則評論\": \"5\"\n        - img \"4 星級、136 則評論\": \"4\"\n        - img \"3 星級、55 則評論\": \"3\"\n        - img \"2 星級、22 則評論\": \"2\"\n        - img \"1 星級、110 則評論\": \"1\"\n    - img \"3.6 顆星\"\n      - img \"4 顆星\":\n      - img \"4 顆星\":\n      - img \"5 顆星\":"
+  }
+]

@@ -1,0 +1,4 @@
+﻿candidate,raw_data_status,grain_match,spatial_readiness,temporal_readiness,decision,severity
+商業多樣性,可下載,部分,需地址座標化與WKT,僅現況快照,可先做橫斷面，不納入月度TCDPI,High
+公共運輸可達性,路線可下載；另有300路核定班表示例；站牌檔疑似不完整,未達標,站牌檔僅26列/1個站點編號,無固定月快照,以TDX或申請介接取得全市站點與完整班表,Critical
+商業韌性,月統計可下載,未達標,只有臺中市總體,2024-07至2026-06且月份不連續,只能作城市背景，不可計商圈韌性,Critical

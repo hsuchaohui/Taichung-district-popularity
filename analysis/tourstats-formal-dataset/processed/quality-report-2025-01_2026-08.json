@@ -1,0 +1,46 @@
+{
+  "status": "Share with caveats",
+  "ready": true,
+  "generated_at": "2026-10-22T04:33:12.347Z",
+  "study_period": {
+    "start": "2025-01",
+    "end": "2026-08"
+  },
+  "grain": "functional-commercial-area-month",
+  "checks": {
+    "row_count": 80,
+    "expected_row_count": 80,
+    "unique_key_count": 80,
+    "metric_raw_response_count": 240,
+    "expected_metric_raw_response_count": 240,
+    "spot_count": 4,
+    "month_count": 20,
+    "date_scope_min": "2020-01-01T00:00:00",
+    "date_scope_max": "2026-08-01T00:00:00",
+    "boundary_hashes_match_baseline": true,
+    "june_2026_anchor_values_match": true,
+    "all_scores_bounded": true
+  },
+  "errors": [],
+  "warnings": [
+    "1 temporal anomalies were flagged and retained."
+  ],
+  "anomalies": [
+    {
+      "severity": "warning",
+      "spot_code": 21,
+      "month": "2025-04",
+      "metric": "visitors",
+      "previous_value": 457080,
+      "current_value": 758886,
+      "change_pct": 66.03,
+      "rule": "absolute month-over-month change >= 50%"
+    }
+  ],
+  "caveats": [
+    "The anonymous endpoints are used by the official website but are not published as a versioned API contract.",
+    "EPSG:4326 is observed from the website implementation and remains pending written agency confirmation.",
+    "The public change log says Gongyi Road was added on 2025-03-18 while valid observations begin in 2025-01; the effective boundary/data date requires agency confirmation.",
+    "Telecom-derived measures are de-identified estimates and must not be interpreted as exact census counts or revenue."
+  ]
+}

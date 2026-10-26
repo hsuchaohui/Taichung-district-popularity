@@ -1,0 +1,1063 @@
+{
+  "entropy_weights": {
+    "attraction": 0.3243485328130693,
+    "engagement": 0.5136949583782695,
+    "loyalty": 0.16195650880866116
+  },
+  "perturbation_scenarios": [
+    {
+      "id": "attraction_minus_10pp",
+      "target": "attraction",
+      "delta": -0.1,
+      "weights": {
+        "attraction": 0.30000000000000004,
+        "engagement": 0.35,
+        "loyalty": 0.35
+      }
+    },
+    {
+      "id": "attraction_plus_10pp",
+      "target": "attraction",
+      "delta": 0.1,
+      "weights": {
+        "attraction": 0.5,
+        "engagement": 0.25,
+        "loyalty": 0.25
+      }
+    },
+    {
+      "id": "engagement_minus_10pp",
+      "target": "engagement",
+      "delta": -0.1,
+      "weights": {
+        "attraction": 0.45714285714285724,
+        "engagement": 0.19999999999999998,
+        "loyalty": 0.3428571428571429
+      }
+    },
+    {
+      "id": "engagement_plus_10pp",
+      "target": "engagement",
+      "delta": 0.1,
+      "weights": {
+        "attraction": 0.3428571428571429,
+        "engagement": 0.4,
+        "loyalty": 0.2571428571428572
+      }
+    },
+    {
+      "id": "loyalty_minus_10pp",
+      "target": "loyalty",
+      "delta": -0.1,
+      "weights": {
+        "attraction": 0.45714285714285724,
+        "engagement": 0.3428571428571429,
+        "loyalty": 0.19999999999999998
+      }
+    },
+    {
+      "id": "loyalty_plus_10pp",
+      "target": "loyalty",
+      "delta": 0.1,
+      "weights": {
+        "attraction": 0.3428571428571429,
+        "engagement": 0.2571428571428572,
+        "loyalty": 0.4
+      }
+    }
+  ],
+  "rows": [
+    {
+      "spot_code": 8043,
+      "month": "2025-01",
+      "base_score": 65.2611,
+      "base_rank": 1,
+      "equal_score": 63.1141,
+      "equal_rank": 1,
+      "entropy_score": 52.0029,
+      "entropy_rank": 1,
+      "perturbation_rank_min": 1,
+      "perturbation_rank_max": 1
+    },
+    {
+      "spot_code": 13,
+      "month": "2025-01",
+      "base_score": 43.7525,
+      "base_rank": 2,
+      "equal_score": 41.3437,
+      "equal_rank": 2,
+      "entropy_score": 30.7131,
+      "entropy_rank": 2,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 2
+    },
+    {
+      "spot_code": 11,
+      "month": "2025-01",
+      "base_score": 26.1472,
+      "base_rank": 3,
+      "equal_score": 27.3729,
+      "equal_rank": 3,
+      "entropy_score": 20.2375,
+      "entropy_rank": 3,
+      "perturbation_rank_min": 3,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 21,
+      "month": "2025-01",
+      "base_score": 5.4238,
+      "base_rank": 4,
+      "equal_score": 5.9515,
+      "equal_rank": 4,
+      "entropy_score": 9.0439,
+      "entropy_rank": 4,
+      "perturbation_rank_min": 4,
+      "perturbation_rank_max": 4
+    },
+    {
+      "spot_code": 8043,
+      "month": "2025-02",
+      "base_score": 63.3232,
+      "base_rank": 1,
+      "equal_score": 61.6029,
+      "equal_rank": 1,
+      "entropy_score": 48.9658,
+      "entropy_rank": 1,
+      "perturbation_rank_min": 1,
+      "perturbation_rank_max": 1
+    },
+    {
+      "spot_code": 13,
+      "month": "2025-02",
+      "base_score": 41.8074,
+      "base_rank": 2,
+      "equal_score": 40.6056,
+      "equal_rank": 2,
+      "entropy_score": 28.8594,
+      "entropy_rank": 2,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 2
+    },
+    {
+      "spot_code": 11,
+      "month": "2025-02",
+      "base_score": 24.5339,
+      "base_rank": 3,
+      "equal_score": 26.1607,
+      "equal_rank": 3,
+      "entropy_score": 17.4359,
+      "entropy_rank": 3,
+      "perturbation_rank_min": 3,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 21,
+      "month": "2025-02",
+      "base_score": 10.8436,
+      "base_rank": 4,
+      "equal_score": 11.5958,
+      "equal_rank": 4,
+      "entropy_score": 16.4316,
+      "entropy_rank": 4,
+      "perturbation_rank_min": 4,
+      "perturbation_rank_max": 4
+    },
+    {
+      "spot_code": 8043,
+      "month": "2025-03",
+      "base_score": 67.4189,
+      "base_rank": 1,
+      "equal_score": 65.7443,
+      "equal_rank": 1,
+      "entropy_score": 52.1614,
+      "entropy_rank": 1,
+      "perturbation_rank_min": 1,
+      "perturbation_rank_max": 1
+    },
+    {
+      "spot_code": 13,
+      "month": "2025-03",
+      "base_score": 48.6745,
+      "base_rank": 2,
+      "equal_score": 47.7198,
+      "equal_rank": 2,
+      "entropy_score": 34.8243,
+      "entropy_rank": 2,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 2
+    },
+    {
+      "spot_code": 11,
+      "month": "2025-03",
+      "base_score": 28.8611,
+      "base_rank": 3,
+      "equal_score": 30.9585,
+      "equal_rank": 3,
+      "entropy_score": 20.3667,
+      "entropy_rank": 3,
+      "perturbation_rank_min": 3,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 21,
+      "month": "2025-03",
+      "base_score": 12.5644,
+      "base_rank": 4,
+      "equal_score": 13.9605,
+      "equal_rank": 4,
+      "entropy_score": 15.7494,
+      "entropy_rank": 4,
+      "perturbation_rank_min": 4,
+      "perturbation_rank_max": 4
+    },
+    {
+      "spot_code": 8043,
+      "month": "2025-04",
+      "base_score": 69.3943,
+      "base_rank": 1,
+      "equal_score": 67.6634,
+      "equal_rank": 1,
+      "entropy_score": 54.6662,
+      "entropy_rank": 1,
+      "perturbation_rank_min": 1,
+      "perturbation_rank_max": 1
+    },
+    {
+      "spot_code": 13,
+      "month": "2025-04",
+      "base_score": 42.779,
+      "base_rank": 2,
+      "equal_score": 41.7676,
+      "equal_rank": 2,
+      "entropy_score": 29.1086,
+      "entropy_rank": 3,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 21,
+      "month": "2025-04",
+      "base_score": 38.3168,
+      "base_rank": 3,
+      "equal_score": 38.3079,
+      "equal_rank": 3,
+      "entropy_score": 42.0013,
+      "entropy_rank": 2,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 11,
+      "month": "2025-04",
+      "base_score": 24.9582,
+      "base_rank": 4,
+      "equal_score": 27.3445,
+      "equal_rank": 4,
+      "entropy_score": 18.1396,
+      "entropy_rank": 4,
+      "perturbation_rank_min": 4,
+      "perturbation_rank_max": 4
+    },
+    {
+      "spot_code": 8043,
+      "month": "2025-05",
+      "base_score": 70.7756,
+      "base_rank": 1,
+      "equal_score": 68.7439,
+      "equal_rank": 1,
+      "entropy_score": 55.6602,
+      "entropy_rank": 1,
+      "perturbation_rank_min": 1,
+      "perturbation_rank_max": 1
+    },
+    {
+      "spot_code": 13,
+      "month": "2025-05",
+      "base_score": 44.1244,
+      "base_rank": 2,
+      "equal_score": 43.339,
+      "equal_rank": 2,
+      "entropy_score": 30.1501,
+      "entropy_rank": 3,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 21,
+      "month": "2025-05",
+      "base_score": 39.142,
+      "base_rank": 3,
+      "equal_score": 39.5655,
+      "equal_rank": 3,
+      "entropy_score": 43.2839,
+      "entropy_rank": 2,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 11,
+      "month": "2025-05",
+      "base_score": 25.209,
+      "base_rank": 4,
+      "equal_score": 27.3522,
+      "equal_rank": 4,
+      "entropy_score": 17.1749,
+      "entropy_rank": 4,
+      "perturbation_rank_min": 4,
+      "perturbation_rank_max": 4
+    },
+    {
+      "spot_code": 8043,
+      "month": "2025-06",
+      "base_score": 70.7987,
+      "base_rank": 1,
+      "equal_score": 69.0725,
+      "equal_rank": 1,
+      "entropy_score": 55.9619,
+      "entropy_rank": 1,
+      "perturbation_rank_min": 1,
+      "perturbation_rank_max": 1
+    },
+    {
+      "spot_code": 13,
+      "month": "2025-06",
+      "base_score": 43.0186,
+      "base_rank": 2,
+      "equal_score": 42.4813,
+      "equal_rank": 2,
+      "entropy_score": 29.5809,
+      "entropy_rank": 3,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 21,
+      "month": "2025-06",
+      "base_score": 40.5133,
+      "base_rank": 3,
+      "equal_score": 41.6917,
+      "equal_rank": 3,
+      "entropy_score": 44.9957,
+      "entropy_rank": 2,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 11,
+      "month": "2025-06",
+      "base_score": 26.1145,
+      "base_rank": 4,
+      "equal_score": 28.4326,
+      "equal_rank": 4,
+      "entropy_score": 18.7607,
+      "entropy_rank": 4,
+      "perturbation_rank_min": 4,
+      "perturbation_rank_max": 4
+    },
+    {
+      "spot_code": 8043,
+      "month": "2025-07",
+      "base_score": 70.7223,
+      "base_rank": 1,
+      "equal_score": 68.8278,
+      "equal_rank": 1,
+      "entropy_score": 57.441,
+      "entropy_rank": 1,
+      "perturbation_rank_min": 1,
+      "perturbation_rank_max": 1
+    },
+    {
+      "spot_code": 21,
+      "month": "2025-07",
+      "base_score": 39.5713,
+      "base_rank": 2,
+      "equal_score": 40.8273,
+      "equal_rank": 2,
+      "entropy_score": 48.4026,
+      "entropy_rank": 2,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 13,
+      "month": "2025-07",
+      "base_score": 39.1949,
+      "base_rank": 3,
+      "equal_score": 38.7719,
+      "equal_rank": 3,
+      "entropy_score": 27.1858,
+      "entropy_rank": 3,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 11,
+      "month": "2025-07",
+      "base_score": 25.0323,
+      "base_rank": 4,
+      "equal_score": 27.091,
+      "equal_rank": 4,
+      "entropy_score": 19.8716,
+      "entropy_rank": 4,
+      "perturbation_rank_min": 4,
+      "perturbation_rank_max": 4
+    },
+    {
+      "spot_code": 8043,
+      "month": "2025-08",
+      "base_score": 66.6127,
+      "base_rank": 1,
+      "equal_score": 63.5966,
+      "equal_rank": 1,
+      "entropy_score": 53.5323,
+      "entropy_rank": 1,
+      "perturbation_rank_min": 1,
+      "perturbation_rank_max": 1
+    },
+    {
+      "spot_code": 21,
+      "month": "2025-08",
+      "base_score": 40.0329,
+      "base_rank": 2,
+      "equal_score": 39.8804,
+      "equal_rank": 2,
+      "entropy_score": 52.0253,
+      "entropy_rank": 2,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 13,
+      "month": "2025-08",
+      "base_score": 38.1215,
+      "base_rank": 3,
+      "equal_score": 36.4865,
+      "equal_rank": 3,
+      "entropy_score": 27.6723,
+      "entropy_rank": 3,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 11,
+      "month": "2025-08",
+      "base_score": 23.4719,
+      "base_rank": 4,
+      "equal_score": 24.169,
+      "equal_rank": 4,
+      "entropy_score": 19.214,
+      "entropy_rank": 4,
+      "perturbation_rank_min": 4,
+      "perturbation_rank_max": 4
+    },
+    {
+      "spot_code": 8043,
+      "month": "2025-09",
+      "base_score": 73.0879,
+      "base_rank": 1,
+      "equal_score": 71.0397,
+      "equal_rank": 1,
+      "entropy_score": 57.5651,
+      "entropy_rank": 2,
+      "perturbation_rank_min": 1,
+      "perturbation_rank_max": 2
+    },
+    {
+      "spot_code": 21,
+      "month": "2025-09",
+      "base_score": 66.1378,
+      "base_rank": 2,
+      "equal_score": 66.7396,
+      "equal_rank": 2,
+      "entropy_score": 77.1786,
+      "entropy_rank": 1,
+      "perturbation_rank_min": 1,
+      "perturbation_rank_max": 2
+    },
+    {
+      "spot_code": 13,
+      "month": "2025-09",
+      "base_score": 52.3316,
+      "base_rank": 3,
+      "equal_score": 51.3706,
+      "equal_rank": 3,
+      "entropy_score": 40.125,
+      "entropy_rank": 3,
+      "perturbation_rank_min": 3,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 11,
+      "month": "2025-09",
+      "base_score": 30.4665,
+      "base_rank": 4,
+      "equal_score": 32.1014,
+      "equal_rank": 4,
+      "entropy_score": 22.4434,
+      "entropy_rank": 4,
+      "perturbation_rank_min": 4,
+      "perturbation_rank_max": 4
+    },
+    {
+      "spot_code": 8043,
+      "month": "2025-10",
+      "base_score": 74.2196,
+      "base_rank": 1,
+      "equal_score": 71.5233,
+      "equal_rank": 1,
+      "entropy_score": 58.9312,
+      "entropy_rank": 1,
+      "perturbation_rank_min": 1,
+      "perturbation_rank_max": 1
+    },
+    {
+      "spot_code": 13,
+      "month": "2025-10",
+      "base_score": 47.3436,
+      "base_rank": 2,
+      "equal_score": 45.7565,
+      "equal_rank": 2,
+      "entropy_score": 33.9939,
+      "entropy_rank": 3,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 21,
+      "month": "2025-10",
+      "base_score": 42.2326,
+      "base_rank": 3,
+      "equal_score": 41.8266,
+      "equal_rank": 3,
+      "entropy_score": 46.4864,
+      "entropy_rank": 2,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 4
+    },
+    {
+      "spot_code": 11,
+      "month": "2025-10",
+      "base_score": 36.3144,
+      "base_rank": 4,
+      "equal_score": 36.9767,
+      "equal_rank": 4,
+      "entropy_score": 28.5479,
+      "entropy_rank": 4,
+      "perturbation_rank_min": 3,
+      "perturbation_rank_max": 4
+    },
+    {
+      "spot_code": 8043,
+      "month": "2025-11",
+      "base_score": 71.5961,
+      "base_rank": 1,
+      "equal_score": 69.1698,
+      "equal_rank": 1,
+      "entropy_score": 55.7975,
+      "entropy_rank": 1,
+      "perturbation_rank_min": 1,
+      "perturbation_rank_max": 1
+    },
+    {
+      "spot_code": 13,
+      "month": "2025-11",
+      "base_score": 46.925,
+      "base_rank": 2,
+      "equal_score": 45.484,
+      "equal_rank": 2,
+      "entropy_score": 31.8255,
+      "entropy_rank": 3,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 21,
+      "month": "2025-11",
+      "base_score": 40.974,
+      "base_rank": 3,
+      "equal_score": 40.8107,
+      "equal_rank": 3,
+      "entropy_score": 43.2897,
+      "entropy_rank": 2,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 11,
+      "month": "2025-11",
+      "base_score": 31.3034,
+      "base_rank": 4,
+      "equal_score": 32.1735,
+      "equal_rank": 4,
+      "entropy_score": 22.7576,
+      "entropy_rank": 4,
+      "perturbation_rank_min": 4,
+      "perturbation_rank_max": 4
+    },
+    {
+      "spot_code": 8043,
+      "month": "2025-12",
+      "base_score": 72.9691,
+      "base_rank": 1,
+      "equal_score": 69.9656,
+      "equal_rank": 1,
+      "entropy_score": 57.4455,
+      "entropy_rank": 1,
+      "perturbation_rank_min": 1,
+      "perturbation_rank_max": 1
+    },
+    {
+      "spot_code": 13,
+      "month": "2025-12",
+      "base_score": 48.3707,
+      "base_rank": 2,
+      "equal_score": 46.8718,
+      "equal_rank": 2,
+      "entropy_score": 32.8193,
+      "entropy_rank": 3,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 21,
+      "month": "2025-12",
+      "base_score": 42.4672,
+      "base_rank": 3,
+      "equal_score": 42.1067,
+      "equal_rank": 3,
+      "entropy_score": 44.8399,
+      "entropy_rank": 2,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 11,
+      "month": "2025-12",
+      "base_score": 32.9638,
+      "base_rank": 4,
+      "equal_score": 32.3189,
+      "equal_rank": 4,
+      "entropy_score": 23.9476,
+      "entropy_rank": 4,
+      "perturbation_rank_min": 4,
+      "perturbation_rank_max": 4
+    },
+    {
+      "spot_code": 8043,
+      "month": "2026-01",
+      "base_score": 73.6766,
+      "base_rank": 1,
+      "equal_score": 71.1847,
+      "equal_rank": 1,
+      "entropy_score": 58.3797,
+      "entropy_rank": 1,
+      "perturbation_rank_min": 1,
+      "perturbation_rank_max": 1
+    },
+    {
+      "spot_code": 13,
+      "month": "2026-01",
+      "base_score": 58.1494,
+      "base_rank": 2,
+      "equal_score": 56.4367,
+      "equal_rank": 2,
+      "entropy_score": 43.8503,
+      "entropy_rank": 2,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 2
+    },
+    {
+      "spot_code": 21,
+      "month": "2026-01",
+      "base_score": 40.0847,
+      "base_rank": 3,
+      "equal_score": 40.0945,
+      "equal_rank": 3,
+      "entropy_score": 43.7137,
+      "entropy_rank": 3,
+      "perturbation_rank_min": 3,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 11,
+      "month": "2026-01",
+      "base_score": 32.1968,
+      "base_rank": 4,
+      "equal_score": 33.1419,
+      "equal_rank": 4,
+      "entropy_score": 23.8483,
+      "entropy_rank": 4,
+      "perturbation_rank_min": 4,
+      "perturbation_rank_max": 4
+    },
+    {
+      "spot_code": 8043,
+      "month": "2026-02",
+      "base_score": 66.1601,
+      "base_rank": 1,
+      "equal_score": 63.5816,
+      "equal_rank": 1,
+      "entropy_score": 53.3967,
+      "entropy_rank": 1,
+      "perturbation_rank_min": 1,
+      "perturbation_rank_max": 1
+    },
+    {
+      "spot_code": 13,
+      "month": "2026-02",
+      "base_score": 54.3881,
+      "base_rank": 2,
+      "equal_score": 51.5373,
+      "equal_rank": 2,
+      "entropy_score": 42.5223,
+      "entropy_rank": 3,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 2
+    },
+    {
+      "spot_code": 21,
+      "month": "2026-02",
+      "base_score": 36.9003,
+      "base_rank": 3,
+      "equal_score": 35.9522,
+      "equal_rank": 3,
+      "entropy_score": 44.7283,
+      "entropy_rank": 2,
+      "perturbation_rank_min": 3,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 11,
+      "month": "2026-02",
+      "base_score": 24.4844,
+      "base_rank": 4,
+      "equal_score": 24.858,
+      "equal_rank": 4,
+      "entropy_score": 19.6013,
+      "entropy_rank": 4,
+      "perturbation_rank_min": 4,
+      "perturbation_rank_max": 4
+    },
+    {
+      "spot_code": 8043,
+      "month": "2026-03",
+      "base_score": 74.2042,
+      "base_rank": 1,
+      "equal_score": 72.1097,
+      "equal_rank": 1,
+      "entropy_score": 58.3339,
+      "entropy_rank": 2,
+      "perturbation_rank_min": 1,
+      "perturbation_rank_max": 2
+    },
+    {
+      "spot_code": 13,
+      "month": "2026-03",
+      "base_score": 68.6087,
+      "base_rank": 2,
+      "equal_score": 67.3024,
+      "equal_rank": 3,
+      "entropy_score": 55.4971,
+      "entropy_rank": 3,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 21,
+      "month": "2026-03",
+      "base_score": 67.9021,
+      "base_rank": 3,
+      "equal_score": 68.6998,
+      "equal_rank": 2,
+      "entropy_score": 78.414,
+      "entropy_rank": 1,
+      "perturbation_rank_min": 1,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 11,
+      "month": "2026-03",
+      "base_score": 33.5424,
+      "base_rank": 4,
+      "equal_score": 35.116,
+      "equal_rank": 4,
+      "entropy_score": 24.4971,
+      "entropy_rank": 4,
+      "perturbation_rank_min": 4,
+      "perturbation_rank_max": 4
+    },
+    {
+      "spot_code": 8043,
+      "month": "2026-04",
+      "base_score": 68.864,
+      "base_rank": 1,
+      "equal_score": 67.3662,
+      "equal_rank": 1,
+      "entropy_score": 53.3154,
+      "entropy_rank": 1,
+      "perturbation_rank_min": 1,
+      "perturbation_rank_max": 1
+    },
+    {
+      "spot_code": 13,
+      "month": "2026-04",
+      "base_score": 54.3504,
+      "base_rank": 2,
+      "equal_score": 53.5973,
+      "equal_rank": 2,
+      "entropy_score": 40.0614,
+      "entropy_rank": 3,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 2
+    },
+    {
+      "spot_code": 21,
+      "month": "2026-04",
+      "base_score": 36.1686,
+      "base_rank": 3,
+      "equal_score": 37.132,
+      "equal_rank": 3,
+      "entropy_score": 40.2447,
+      "entropy_rank": 2,
+      "perturbation_rank_min": 3,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 11,
+      "month": "2026-04",
+      "base_score": 27.4814,
+      "base_rank": 4,
+      "equal_score": 29.7565,
+      "equal_rank": 4,
+      "entropy_score": 20.4686,
+      "entropy_rank": 4,
+      "perturbation_rank_min": 4,
+      "perturbation_rank_max": 4
+    },
+    {
+      "spot_code": 8043,
+      "month": "2026-05",
+      "base_score": 73.4671,
+      "base_rank": 1,
+      "equal_score": 71.1469,
+      "equal_rank": 1,
+      "entropy_score": 57.8815,
+      "entropy_rank": 1,
+      "perturbation_rank_min": 1,
+      "perturbation_rank_max": 1
+    },
+    {
+      "spot_code": 13,
+      "month": "2026-05",
+      "base_score": 60.4235,
+      "base_rank": 2,
+      "equal_score": 59.0724,
+      "equal_rank": 2,
+      "entropy_score": 46.1412,
+      "entropy_rank": 2,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 2
+    },
+    {
+      "spot_code": 21,
+      "month": "2026-05",
+      "base_score": 39.6805,
+      "base_rank": 3,
+      "equal_score": 40.0258,
+      "equal_rank": 3,
+      "entropy_score": 42.5397,
+      "entropy_rank": 3,
+      "perturbation_rank_min": 3,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 11,
+      "month": "2026-05",
+      "base_score": 32.3761,
+      "base_rank": 4,
+      "equal_score": 33.8896,
+      "equal_rank": 4,
+      "entropy_score": 24.5794,
+      "entropy_rank": 4,
+      "perturbation_rank_min": 4,
+      "perturbation_rank_max": 4
+    },
+    {
+      "spot_code": 8043,
+      "month": "2026-06",
+      "base_score": 72.1501,
+      "base_rank": 1,
+      "equal_score": 70.5476,
+      "equal_rank": 1,
+      "entropy_score": 57.692,
+      "entropy_rank": 1,
+      "perturbation_rank_min": 1,
+      "perturbation_rank_max": 1
+    },
+    {
+      "spot_code": 13,
+      "month": "2026-06",
+      "base_score": 55.6456,
+      "base_rank": 2,
+      "equal_score": 55.2174,
+      "equal_rank": 2,
+      "entropy_score": 43.3129,
+      "entropy_rank": 3,
+      "perturbation_rank_min": 2,
+      "perturbation_rank_max": 2
+    },
+    {
+      "spot_code": 21,
+      "month": "2026-06",
+      "base_score": 40.0384,
+      "base_rank": 3,
+      "equal_score": 41.6136,
+      "equal_rank": 3,
+      "entropy_score": 45.4701,
+      "entropy_rank": 2,
+      "perturbation_rank_min": 3,
+      "perturbation_rank_max": 3
+    },
+    {
+      "spot_code": 11,
+      "month": "2026-06",
+      "base_score": 27.497,
+      "base_rank": 4,
+      "equal_score": 30.1226,
+      "equal_rank": 4,
+      "entropy_score": 21.696,
+      "entropy_rank": 4,
+      "perturbation_rank_min": 4,
+      "perturbation_rank_max": 4
+    }
+  ],
+  "agreement_by_month": [
+    {
+      "month": "2025-01",
+      "spearman_base_equal": 1,
+      "kendall_base_equal": 1,
+      "spearman_base_entropy": 1,
+      "kendall_base_entropy": 1
+    },
+    {
+      "month": "2025-02",
+      "spearman_base_equal": 1,
+      "kendall_base_equal": 1,
+      "spearman_base_entropy": 1,
+      "kendall_base_entropy": 1
+    },
+    {
+      "month": "2025-03",
+      "spearman_base_equal": 1,
+      "kendall_base_equal": 1,
+      "spearman_base_entropy": 1,
+      "kendall_base_entropy": 1
+    },
+    {
+      "month": "2025-04",
+      "spearman_base_equal": 1,
+      "kendall_base_equal": 1,
+      "spearman_base_entropy": 0.8,
+      "kendall_base_entropy": 0.666667
+    },
+    {
+      "month": "2025-05",
+      "spearman_base_equal": 1,
+      "kendall_base_equal": 1,
+      "spearman_base_entropy": 0.8,
+      "kendall_base_entropy": 0.666667
+    },
+    {
+      "month": "2025-06",
+      "spearman_base_equal": 1,
+      "kendall_base_equal": 1,
+      "spearman_base_entropy": 0.8,
+      "kendall_base_entropy": 0.666667
+    },
+    {
+      "month": "2025-07",
+      "spearman_base_equal": 1,
+      "kendall_base_equal": 1,
+      "spearman_base_entropy": 1,
+      "kendall_base_entropy": 1
+    },
+    {
+      "month": "2025-08",
+      "spearman_base_equal": 1,
+      "kendall_base_equal": 1,
+      "spearman_base_entropy": 1,
+      "kendall_base_entropy": 1
+    },
+    {
+      "month": "2025-09",
+      "spearman_base_equal": 1,
+      "kendall_base_equal": 1,
+      "spearman_base_entropy": 0.8,
+      "kendall_base_entropy": 0.666667
+    },
+    {
+      "month": "2025-10",
+      "spearman_base_equal": 1,
+      "kendall_base_equal": 1,
+      "spearman_base_entropy": 0.8,
+      "kendall_base_entropy": 0.666667
+    },
+    {
+      "month": "2025-11",
+      "spearman_base_equal": 1,
+      "kendall_base_equal": 1,
+      "spearman_base_entropy": 0.8,
+      "kendall_base_entropy": 0.666667
+    },
+    {
+      "month": "2025-12",
+      "spearman_base_equal": 1,
+      "kendall_base_equal": 1,
+      "spearman_base_entropy": 0.8,
+      "kendall_base_entropy": 0.666667
+    },
+    {
+      "month": "2026-01",
+      "spearman_base_equal": 1,
+      "kendall_base_equal": 1,
+      "spearman_base_entropy": 1,
+      "kendall_base_entropy": 1
+    },
+    {
+      "month": "2026-02",
+      "spearman_base_equal": 1,
+      "kendall_base_equal": 1,
+      "spearman_base_entropy": 0.8,
+      "kendall_base_entropy": 0.666667
+    },
+    {
+      "month": "2026-03",
+      "spearman_base_equal": 0.8,
+      "kendall_base_equal": 0.666667,
+      "spearman_base_entropy": 0.4,
+      "kendall_base_entropy": 0.333333
+    },
+    {
+      "month": "2026-04",
+      "spearman_base_equal": 1,
+      "kendall_base_equal": 1,
+      "spearman_base_entropy": 0.8,
+      "kendall_base_entropy": 0.666667
+    },
+    {
+      "month": "2026-05",
+      "spearman_base_equal": 1,
+      "kendall_base_equal": 1,
+      "spearman_base_entropy": 1,
+      "kendall_base_entropy": 1
+    },
+    {
+      "month": "2026-06",
+      "spearman_base_equal": 1,
+      "kendall_base_equal": 1,
+      "spearman_base_entropy": 0.8,
+      "kendall_base_entropy": 0.666667
+    }
+  ]
+}
