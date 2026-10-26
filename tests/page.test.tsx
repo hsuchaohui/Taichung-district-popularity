@@ -18,8 +18,8 @@ describe('research prototype page', () => {
     expect(screen.getByRole('banner')).toBeInTheDocument();
     expect(screen.getByRole('alert')).toHaveTextContent('正式資料暫時無法讀取');
     const methodology = screen.getByRole('region', { name: '研究方法與資料界線' });
-    expect(within(methodology).getByRole('heading', { name: '資料版本與來源限制' })).toBeInTheDocument();
-    expect(within(methodology).getByRole('heading', { name: '研究限制' })).toBeInTheDocument();
+    expect(within(methodology).getByRole('heading', { name: '資料來源' })).toBeInTheDocument();
+    expect(within(methodology).getByRole('heading', { name: '使用限制' })).toBeInTheDocument();
     expect(screen.queryByRole('region', { name: /熱門排行榜/ })).not.toBeInTheDocument();
   });
 

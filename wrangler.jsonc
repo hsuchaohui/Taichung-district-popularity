@@ -2,8 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "taichung-district-popularity",
   "main": "worker/index.ts",
-  "compatibility_date": "2026-10-01",
-  "compatibility_flags": ["nodejs_compat"],
+  "compatibility_date": "2026-05-01",
   "assets": { "binding": "ASSETS", "directory": "dist/client" },
   "images": { "binding": "IMAGES" }
 }
