@@ -42,20 +42,17 @@ export function IndexExplanation({
   ).length;
 
   return (
-    <section className="explanation-section" aria-labelledby="explanation-title">
-      <div className="section-intro">
-        <div>
-          <p className="eyebrow">EXPLANATION LAYER</p>
-          <h2 id="explanation-title">權重與排名敏感度解釋</h2>
-        </div>
+    <section className="explanation-section explanation-slim" aria-labelledby="explanation-title">
+      <div className="explanation-compact">
+        <h2 id="explanation-title">權重與排名敏感度解釋</h2>
         <p>
-          {formatMonth(month)}：{rows.length - sensitiveCount} 個商圈的名次在權重小幅調整後不變，
+          {formatMonth(month)}：{rows.length - sensitiveCount} 個商圈名次在權重小幅調整後不變，
           {sensitiveCount} 個可能改變。
         </p>
       </div>
 
       <details className="explanation-details">
-        <summary>查看不同權重下的排名</summary>
+        <summary>詳細排名</summary>
         <p className="explanation-weights">
           主要權重 吸引力 40%｜投入度 30%｜黏著度 30%；等權重各約 33.33%；熵權重 吸引力 {(entropy.attraction * 100).toFixed(2)}%｜
           投入度 {(entropy.engagement * 100).toFixed(2)}%｜黏著度 {(entropy.loyalty * 100).toFixed(2)}%。

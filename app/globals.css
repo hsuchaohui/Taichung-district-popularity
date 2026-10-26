@@ -1583,3 +1583,36 @@ input:focus-visible {
     transition-duration: 0.01ms !important;
   }
 }
+
+.explanation-slim {
+  padding-bottom: clamp(24px, 3vw, 40px);
+}
+
+.explanation-compact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 16px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+
+.explanation-compact h2 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.explanation-compact p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.explanation-slim .quality-notice {
+  margin-top: 8px;
+  padding: 8px 12px;
+}
+
+.explanation-slim .quality-notice p {
+  font-size: 13px;
+}
