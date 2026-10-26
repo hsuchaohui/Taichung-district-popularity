@@ -29,6 +29,16 @@ TCDPI_SNAPSHOT_DATE=2026-10-22 TCDPI_STUDY_END=2026-08 node analysis/tourstats-f
 
 資料管線程式與快照查核方式請見 `analysis/tourstats-formal-dataset/README.md`。正式資料版本期間如有更新，需建立新快照、更新版本與網站說明，不可把不完整月份補成 0。
 
+## 部署到 Cloudflare Workers
+
+需先執行一次 `npx wrangler login`，並在 `.env.local` 填入 `VITE_GOOGLE_MAPS_API_KEY`（建置時寫入前端）。伺服器端的 `GOOGLE_PLACES_API_KEY` 已用 `npx wrangler secret put GOOGLE_PLACES_API_KEY --config dist/server/wrangler.json` 設在 Worker 上，不需重設。
+
+```bash
+npm run deploy
+```
+
+此指令會依序執行測試、建置與部署，任一步失敗即停止。網址：https://taichung-district-popularity.hsuchaohui.workers.dev
+
 ## 研究問題
 
 1. 如何整合具明確來源、空間邊界與定義的政府人流資料，建立可重複計算的商圈熱門指數？
