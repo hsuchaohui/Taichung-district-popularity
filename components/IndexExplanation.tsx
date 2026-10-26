@@ -37,6 +37,9 @@ export function IndexExplanation({
   }
 
   const entropy = studyData.entropyWeights;
+  const sensitiveCount = rows.filter(
+    (row) => row.perturbationRankMin !== row.perturbationRankMax,
+  ).length;
 
   return (
     <section className="explanation-section" aria-labelledby="explanation-title">
@@ -45,74 +48,55 @@ export function IndexExplanation({
           <p className="eyebrow">EXPLANATION LAYER</p>
           <h2 id="explanation-title">權重與排名敏感度解釋</h2>
         </div>
-        <p>比較不同權重設定，並檢查小幅調整是否會改變各商圈名次。</p>
+        <p>
+          {formatMonth(month)}：{rows.length - sensitiveCount} 個商圈的名次在權重小幅調整後不變，
+          {sensitiveCount} 個可能改變。
+        </p>
       </div>
 
-      <div className="explanation-grid">
-        <article>
-          <h3>三種權重設定</h3>
-          <dl>
-            <div>
-              <dt>主要權重</dt>
-              <dd>吸引力 40%｜投入度 30%｜黏著度 30%</dd>
-            </div>
-            <div>
-              <dt>等權重</dt>
-              <dd>三個構面各約 33.33%</dd>
-            </div>
-            <div>
-              <dt>熵權重</dt>
-              <dd>
-                吸引力 {(entropy.attraction * 100).toFixed(2)}%｜
-                投入度 {(entropy.engagement * 100).toFixed(2)}%｜
-                黏著度 {(entropy.loyalty * 100).toFixed(2)}%
-              </dd>
-            </div>
-          </dl>
-        </article>
-        <article>
-          <h3>標籤怎麼看</h3>
-          <p><strong>穩健：</strong>權重正負 10 個百分點調整後，名次不變。</p>
-          <p><strong>敏感：</strong>權重小幅調整後，可能落在不同名次。</p>
-        </article>
-      </div>
-
-      <div className="weight-table-wrap">
-        <table className="weight-table">
-          <caption>{formatMonth(month)}替代權重排名</caption>
-          <thead>
-            <tr>
-              <th scope="col">商圈</th>
-              <th scope="col">主要分數</th>
-              <th scope="col">主要權重</th>
-              <th scope="col">等權重</th>
-              <th scope="col">熵權重</th>
-              <th scope="col">±10pp 排名範圍</th>
-              <th scope="col">判定</th>
-            </tr>
-          </thead>
-          <tbody>
-            {rows.map((row) => {
-              const district = districtById.get(row.districtId);
-              const robust = row.perturbationRankMin === row.perturbationRankMax;
-              return (
-                <tr key={row.districtId}>
-                  <th scope="row">{district?.name ?? row.districtId}</th>
-                  <td>{row.baseScore.toFixed(4)} 分</td>
-                  <td>{formatRank(row.baseRank)}</td>
-                  <td>{formatRank(row.equalRank)}</td>
-                  <td>{formatRank(row.entropyRank)}</td>
-                  <td>{formatRange(row.perturbationRankMin, row.perturbationRankMax)}</td>
-                  <td><span className="robustness-status">{robust ? '穩健' : '敏感'}</span></td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
+      <details className="explanation-details">
+        <summary>查看不同權重下的排名</summary>
+        <p className="explanation-weights">
+          主要權重 吸引力 40%｜投入度 30%｜黏著度 30%；等權重各約 33.33%；熵權重 吸引力 {(entropy.attraction * 100).toFixed(2)}%｜
+          投入度 {(entropy.engagement * 100).toFixed(2)}%｜黏著度 {(entropy.loyalty * 100).toFixed(2)}%。
+          「穩健」代表權重正負 10 個百分點調整後名次不變，「敏感」代表可能落在不同名次。
+        </p>
+        <div className="weight-table-wrap">
+          <table className="weight-table">
+            <caption>{formatMonth(month)}替代權重排名</caption>
+            <thead>
+              <tr>
+                <th scope="col">商圈</th>
+                <th scope="col">主要分數</th>
+                <th scope="col">主要權重</th>
+                <th scope="col">等權重</th>
+                <th scope="col">熵權重</th>
+                <th scope="col">±10pp 排名範圍</th>
+                <th scope="col">判定</th>
+              </tr>
+            </thead>
+            <tbody>
+              {rows.map((row) => {
+                const district = districtById.get(row.districtId);
+                const robust = row.perturbationRankMin === row.perturbationRankMax;
+                return (
+                  <tr key={row.districtId}>
+                    <th scope="row">{district?.name ?? row.districtId}</th>
+                    <td>{row.baseScore.toFixed(4)} 分</td>
+                    <td>{formatRank(row.baseRank)}</td>
+                    <td>{formatRank(row.equalRank)}</td>
+                    <td>{formatRank(row.entropyRank)}</td>
+                    <td>{formatRange(row.perturbationRankMin, row.perturbationRankMax)}</td>
+                    <td><span className="robustness-status">{robust ? '穩健' : '敏感'}</span></td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      </details>
 
       <div className="quality-notice" role="status" aria-label="資料品質提醒">
-        <h3>資料品質提醒</h3>
         {anomalies.length === 0 ? (
           <p>本月未觸發既定異常規則；這不代表資料沒有其他限制。</p>
         ) : (
